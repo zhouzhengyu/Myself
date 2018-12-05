@@ -2,7 +2,6 @@ html{
     font-size: 65%;
 }  
 #main{
-    background-color:rgb(231, 227, 227); 
     box-sizing: content-box;
     position: absolute;
     min-width: 50rem;
