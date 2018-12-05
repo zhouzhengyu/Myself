@@ -27,25 +27,27 @@ html{
     text-align: center;
 }
 #centercontent{
-    position: absolute;
-    top: 15rem;
-    width: 65%;
-    min-width: 50rem;
-    min-height:166rem;
-    max-height: 600%;
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    margin-top:45rem;
+    min-width: 40rem;
+    height: 22rem;
 }
 .content{
-     margin-right: 40rem;
+    display:flex;
+    flex:1;
+    
 }
 #content{
-    box-sizing:content-box; 
-    position: absolute;
-    right: 0;
-    top: 0;
     width: 40rem;
     height: 22rem;
-    top: 31rem;
 }
+#ricontent{
+    display:flex;
+    flex:1;
+}
+
 i{
     background:url(./img.png)  no-repeat;
     width: 6rem;
@@ -54,54 +56,54 @@ i{
    
 }
 .one i{
-    position: absolute;
+    display:flex;
     padding: 0.5%;
     background-position: 3rem 3rem;
     cursor: pointer;
 }
 .one p{
-    position: absolute;
+    display:flex;
     padding: 0.5%;
-    left: 6rem;
-    top: 2rem;
-    margin-right: 10%;
+    margin-left: 7rem;
+    margin-top: -3rem;
    
 }
 .two i{
-    position: absolute;
+    display:flex;
     padding: 0.5%;
-    left: 18rem;
+    margin-left: 25rem;
+    margin-top: -6rem;
     background-position:-22rem 3rem;
     cursor: pointer;
 }
 .two p{
-    position: absolute;
-    left: 24rem;
-    top: 2.5rem;
+    display:flex;
+    margin-left: 32rem;
+    margin-top: -3rem;
 }
 .three i{
-    position: absolute;
+    display:flex;
     padding: 0.5%;
-    top: 11rem;
+    margin-top: 9rem;
     background-position: 2rem -10rem;
     cursor: pointer;
 }
 .three p{
-    position: absolute;
-    left: 7rem;
-    top: 13.5rem;
+    display:flex;
+    margin-left: 7rem;
+    margin-top: -3rem;
 }
 .four i{
-    position: absolute;
-    left: 19rem;
-    top: 11rem;
+    display:flex;
+    margin-left: 26rem;
+    margin-top: -5.5rem;
     background-position:-22rem -10rem;
     cursor: pointer;
 }
 .four p{
-    position: absolute;
-    left: 25rem;
-    top: 13rem;
+    display:flex;
+    margin-left: 32rem;
+    margin-top: -3rem;
 }
 
 #content1{
@@ -129,65 +131,68 @@ i{
     text-align: center;
 }
 #task{
-    position: absolute;
-    width: 67%;
+    display:flex;
+    flex-direction:row;
+    width: 100%;
     min-width: 50rem;
-    height:66rem;
-    top:20rem;
+    height:65rem;
+    margin-top:48rem;
 }
 .task3{
-    margin-right: 50rem;
+    display:flex;
+    flex: 1;
 }
 #task3{
-    position: absolute;
-    right: 0;
-    top: 0;
+    display:flex;
     width: 50rem;
-    height: 22rem;
+    height:65rem;
+}
+#task30{
+    display:flex;
+    flex: 1;
 }
 .task3_03 i{
-    position: absolute;
+    display:flex;
+    margin-top: 0;
+    margin-left: 9rem;
     background-position:0rem -23rem;
-    left: 9rem;
-    top: 32rem;
     cursor: pointer;
 }
 
 .task3_03 p{
-    position: absolute;
-    left: 11rem;
-    top: 36rem;
+    display:flex;
+    margin-top: 0;
+    margin-left: 11rem;
     cursor: pointer;
 }
 .task3_06 i{
-    position: absolute;
+    display:flex;
     background-position:-22rem -23rem;
-    left: 30rem;
-    top: 31.8rem;
+    margin-top: 0;
+    margin-left: 18rem;
     cursor: pointer;
 }
 .task3_06 p{
-    position: absolute;
-    left: 32rem;
-    top: 36rem;
+    display:flex;
+    margin-top: 0;
+    margin-left: 20.5rem;
     cursor: pointer;
 }
 .img2{
     background: url(./img2.png) no-repeat;
     background-size: 23rem 16rem;
-    position: absolute;
+    display:flex;
     width: 24rem;
     height: 16rem;
-    right:0;
-    top: 65rem;
-    
+    margin-top: 11rem;
+    margin-left: -39rem;
 }
 .img3{
     background: url(./img3.png) no-repeat;
     background-size: 23rem 16rem;
-    position: absolute;
-    left: 0rem;
-    top: 44rem;
+    display:flex;
+    margin-top: 28rem;
+    margin-left: 4rem;
     width: 24rem;
     height: 16rem;
 }
