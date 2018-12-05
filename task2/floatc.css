@@ -1,0 +1,107 @@
+#flex-container {
+    box-sizing: content-box;  
+    width: 100%;
+    height: 100px;
+}
+.left{
+    width: 30%;
+    height: 100px;
+    float :left;
+    background-color: deeppink;
+}
+.right{
+    width: 70%;
+    height: 100px;
+    float :left;
+    background-color: crimson;
+}
+
+.flex-container {
+    box-sizing: content-box;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 100px;
+}
+#left{
+    width: 200px;
+    height: 100px;
+    float :left;
+    background-color:rgb(38, 164, 173);
+}
+#right{
+    height: 100px;
+    background-color: rgb(29, 18, 20);
+}
+
+.flex {
+    box-sizing: content-box;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 100px;
+}
+#flexleft{
+      height: 100px;
+      margin-right:200px;
+      background-color:rgb(14, 67, 241);
+}
+#flexright{
+    width: 200px;
+    height: 100px;
+    float: right;
+    margin-top:-100px;
+    background-color:rgb(212, 26, 150);
+}
+
+.flexThree{
+    box-sizing: content-box;
+    position: relative;
+    top: 90px;
+    width: 100%;
+    height: 100px;
+}
+#flexThreeleft{
+    width: 200px;
+    height: 100px;
+    float :left;
+    background-color:rgb(14, 233, 32);
+}
+#flexThreecenter{
+    height: 100px;
+    margin-right:200px;
+    margin-left: 200px;
+    background-color:rgb(236, 240, 13);
+}
+#flexThreeright{
+    width: 200px;
+    height: 100px;
+    float: right;
+    top:0;
+    background-color:rgb(22, 140, 236);
+}
+
+.flexFour{
+    box-sizing: content-box;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 100px;
+}
+#flexFourleft{
+    width: 200px;
+    height: 100px;
+    float :left;
+    background-color:rgb(238, 15, 15);
+}
+#flexFourcenter{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color:rgb(22, 79, 236);
+}
+#flexFourright{
+    height: 100px;
+    margin-left: 400px;
+    background-color:rgb(153, 106, 45);
+}

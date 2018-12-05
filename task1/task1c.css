@@ -1,0 +1,150 @@
+#resume{
+    position: absolute;
+    top: 10%;
+    left:5%;
+    right: 5%;
+    width: 100%;
+    padding-bottom: 1%;
+}
+#head{
+   width: 90%;
+   padding-bottom: 0.5%;
+   background-color:rgb(169, 169, 169);
+   font-size: 3vw;
+   font-weight: bold;
+   text-indent:22px;
+   float: left;
+   margin: 0.2%;
+}
+#message{
+   width: 15%;
+   padding: 1%;
+   background-color:#ccc;
+   font-size: 1.5vw;
+   font-weight: bold;
+   float: left;
+   text-align: center;
+   margin: 0.2%;
+}
+.message{
+    width: 22%;
+    font-size: 1vw;
+    float: left;
+    margin: 0.5%;
+ }
+ .messagea{
+   width: 20%;
+   padding-bottom: 1.5%;
+   font-size: 1vw;
+   float: left;
+   margin: 1%;
+}
+.messageb{
+   width: 15%;
+   padding-bottom: 1.5%;
+   font-size: 1vw;
+   float: left;
+   margin: 1%;
+}
+.messagec{
+   width: 30%;
+   padding-bottom: 1.5%;
+   font-size: 1vw;
+   float: left;
+   margin: 1%;
+}
+ #call{
+    width: 15%;
+    padding: 1%;
+    background-color:#ccc;
+    font-size: 1.5vw;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    margin: 0.2%;
+ }
+ .call{
+   width: 35%;
+   font-size: 1vw;
+   float: left;
+   margin: 2.5%;
+}
+ .calla{
+     width: 26%;
+     font-size: 1vw;
+     float: left;
+     padding-bottom: 1.5%;
+     margin: 1%;
+  }
+  .callb{
+   width: 52%;
+   font-size: 1vw;
+   float: left;
+   padding-bottom: 1.5%;
+   margin: 1%;
+}
+  #strong{
+   width: 15%;
+   padding: 1%;
+   background-color:#ccc;
+   font-size: 1.5vw;
+   font-weight: bold;
+   float: left;
+   text-align: center;
+   margin: 0.2%;
+ }
+ .strong{
+   width: 35%;
+   font-size: 1vw;
+   float: left;
+   margin: 2.5%;
+  }
+   .stronga{
+      width: 26%;
+      font-size: 1vw;
+      float: left;
+      padding-bottom: 1.5%;
+      margin: 1%;
+   }
+   .strongb{
+   width: 52%;
+   font-size: 1vw;
+   float: left;
+   padding-bottom: 1.5%;
+   margin: 1%;
+   }
+ #education{
+   width: 15%;
+   padding: 1%;
+   background-color:#ccc;
+   font-size: 1.5vw;
+   font-weight: bold;
+   float: left;
+   text-align: center;
+   margin: 0.2%;
+ }
+ .education{
+   width: 80%;
+   font-size: 1vw;
+   float: left;
+   padding-bottom: 1.5%;
+   margin: 1%;
+  }
+  #product{
+   width: 15%;
+   padding: 1%;
+   background-color:#ccc;
+   font-size: 1.5vw;
+   font-weight: bold;
+   float: left;
+   text-align: center;
+   margin: 0.2%;
+ }
+ .product{
+   width: 80%;
+   font-size: 1vw;
+   float: left;
+   padding-bottom: 1.5%;
+   margin: 1%;
+   text-align: justify;
+  }

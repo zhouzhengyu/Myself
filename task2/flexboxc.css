@@ -1,0 +1,88 @@
+#flex-container {
+    box-sizing: content-box;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.left{
+    flex:1 1 30%;
+    background-color: deeppink;
+}
+.right{
+    flex:1 1 70%;
+    background-color: crimson;
+}
+.flex-container {
+    box-sizing: content-box;
+    position: relative;
+    top: 30px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+#left{
+    flex:0 0 100px;
+    background-color:rgb(38, 164, 173);
+}
+#right{
+    flex: 1 1 auto;
+    background-color: rgb(15, 15, 15);
+}
+.flex {
+    box-sizing: content-box;
+    position: relative;
+    top: 60px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+#flexleft{
+      justify-content:flex-end;
+      flex: 1 1 auto;
+      background-color:rgb(14, 67, 241);
+}
+#flexright{
+    flex:0 0 100px;
+    background-color:rgb(212, 26, 150);
+}
+.flexThree{
+    box-sizing: content-box;
+    position: relative;
+    top: 80px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+#flexThreeleft{
+    flex:0 0 100px;
+    background-color:rgb(22, 171, 216);
+}
+#flexThreecenter{
+    flex:auto;
+    background-color:rgb(73, 230, 34);
+}
+#flexThreeright{
+    flex:0 0 100px;
+    background-color:rgb(22, 171, 216);
+}
+
+.flexFour{
+    box-sizing: content-box;
+    position: relative;
+    display: flex;
+    top: 100px;
+    width: 100%;
+    height: 100px;
+}
+#flexFourleft{
+    flex:0 0 100px;
+    background-color:rgb(197, 238, 15);
+}
+#flexFourcenter{
+    flex:0 0 100px;
+    background-color:rgb(22, 26, 236);
+}
+#flexFourright{
+    flex:auto;
+    background-color:rgb(170, 16, 190);
+}

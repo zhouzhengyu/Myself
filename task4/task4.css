@@ -1,0 +1,309 @@
+html{
+  font-size: 60%;
+}
+#aside{
+    position: absolute;
+    width: 8.4rem;
+    height: 100%;
+    min-height: 58rem;
+    background: rgb(29, 37,49);
+}
+i{
+    background:url(./task4.png)  no-repeat;
+    width: 7rem;
+    height: 6rem;
+    background-size: 51rem 52rem;
+}
+.task4_11 i{
+    position: absolute;
+    background-position:1rem 0rem;
+}
+.task4_12 i{
+    position: absolute;
+    top: 5rem;
+    background-position:1rem -12rem;
+}
+.task4_13 i{
+    position: absolute;
+    top: 10.2rem;
+    background-position:1rem -24rem;
+}
+.task4_14 i{
+    position: absolute;
+    top: 15rem;
+    background-position:1rem -35rem;
+}
+.task4_15 i{
+    position: absolute;
+    width: 6rem !important;
+    bottom: -2.4%;
+    background-position: 1.5rem -46rem;
+    background-size: 41rem 49rem !important;
+}
+.task4_16 i{
+    position: absolute;
+    left: 1rem;
+    bottom: -2.4%;
+    background-position: -1.8rem -45.9rem;
+    background-size: 40rem 49rem !important;
+}
+
+#seAside{
+    position: absolute;
+    left: 8.4rem;
+    width: 20rem;
+    height: 100%;
+    min-height: 58rem;
+    background: rgb(34, 44,60);
+    display: block;
+}
+.task4_2 i{
+    float:left;
+    margin-left: 11rem;
+    margin-top: -2.5rem;
+    background-position: -30rem -0rem;
+}
+.task4_2 p{
+    float:left;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: rgb(91, 103,121);
+}
+#menu{
+    float:left;
+    width: 5rem;
+    margin-top: -4rem;
+    margin-left:-1rem;
+}
+.menu{
+    margin-left:-0.5rem;
+    margin-top:1rem;
+    font-weight: bold;
+    font-size: 0.6rem;
+    list-style: none;
+    color: rgb(183,192,205);
+}
+#underline{
+    float:left;
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    border: 1px rgb(42, 53, 71) solid;
+}
+.task4_3 i{
+    float:left;
+    margin-left: 11.3rem;
+    margin-top: 1rem;
+    background-position: -30rem -0rem;
+}
+.task4_3 p{
+    float:left;
+    margin-left: 1.5rem;
+    margin-top: -5.6rem;
+    font-weight: bold;
+    color: rgb(91, 103,121);
+}
+.task4_31 i{
+    float:left;
+    margin-left: 1.5rem;
+    margin-top: -3.8rem;
+    background-position: -24rem 1rem;
+}
+.task4_32 i{
+    float:left;
+    margin-left: -7rem;
+    margin-top: -0.5rem;
+    background-position: -24rem -7rem;
+}
+.task4_33 i{
+    float:left;
+    margin-left: -7.1rem;
+    margin-top: 2.3rem;
+    background-position: -24rem -13rem;
+}
+.task4_34 i{
+    float:left;
+    margin-left: -7.1rem;
+    margin-top: 5.9rem;
+    background-position: -24rem -20rem;
+}
+#products{
+    float:left;
+    width: 5rem;
+    margin-top:-4.3rem;
+    margin-left: -7rem;
+}
+.products{
+    margin-left:-1rem;
+    margin-top:1.6rem;
+    font-weight: bold;
+    font-size: 0.6rem;
+    list-style: none;
+    color: rgb(183,192,205);
+}
+.underline{
+    float: left;
+    width: 15rem;
+    margin-left: 1.7rem;
+    margin-top: -3rem;
+    border: 1px rgb(42, 53, 71) solid;
+}
+
+.task4_4 i{
+    float: left;
+    margin-left: 11.5rem;
+    margin-top: -2rem;
+    background-position: -30rem -0rem;
+}
+.task4_4 p{
+    float: left;
+    margin-left: 1.7rem;
+    margin-top: -5.45rem;
+    font-weight: bold;
+    color: rgb(91, 103,121);
+}
+#dashboard{
+    float: left;
+    width: 5rem;
+    margin-top: -4rem;
+    margin-left: 8.7rem;
+}
+.dashboard{
+    margin-left:-10.4rem;
+    margin-top:1rem;
+    font-weight: bold;
+    font-size: 0.6rem;
+    list-style: none;
+    color: rgb(183,192,205);
+}
+.task4_5 i{
+    position: absolute;
+    width: 14rem !important;
+    left: 1rem;
+    bottom: -4%;
+    background-position: -16rem -49.3rem;
+}
+.task4_5 p{
+    position: absolute;
+    width: 14rem !important;
+    left: 2rem;
+    bottom: 4%;
+    font-size: 0.6rem;
+    font-weight: bold;
+    background-position: -16rem -49.3rem;
+    color: rgb(183,192,205);
+}
+
+#leAside{
+    float:left;
+    margin-left:27.5rem;
+    width: 30rem;
+    height: 100%;
+    min-height: 58rem;
+    background: rgb(255,255,255);
+}
+#message{
+    float: left;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(86,104,138);
+}
+.message{
+    float: left;
+    margin-left: 0rem;
+    margin-top: 2rem;
+    width: 100%;
+    border: 0.5px rgb(183,192,205) solid;
+}
+.search{
+    float: left;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    width: 15rem;
+    height: 1.4rem;
+    border-radius:0.5rem;
+    border: 1px solid #ABABAB;
+}
+
+#reAside{
+    margin-left: 58.4rem;
+    height: 100%;
+    min-height: 58rem;
+    min-width: 33rem;
+    background: rgb(255,255,255);
+}
+.task4_6 i{
+    float: right;
+    margin-right:0rem;
+    background-position: -45rem 0.1rem;
+    display:inline-block;
+}
+.task4_6 p{
+    float: right;
+    margin-right: -12rem;
+    color: deepskyblue;
+    display:inline-block;
+}
+u{
+    background: url(./img4.png) no-repeat;
+    width: 7rem;
+    height: 6rem;
+}
+#img1 u{
+    float: right;
+    margin-right:0rem;
+    margin-top: 1rem;
+    background-position: 0rem 0rem;
+}
+#img1 p{
+    float: right;
+    margin-right:0rem;
+    margin-top: 3rem;
+    font-size: 0.6rem;
+    color: rgb(183,192,205);
+    display:inline-block;
+}
+#img2 u{
+    float: right;
+    margin-right: 20rem;
+    margin-top: 1.3rem;
+    width: 12rem !important;
+    background-position: 0rem -10rem;
+    background-size: 9rem 36rem !important;
+    display:inline-block;
+}
+#img3 u{
+    float: right;
+    margin-right: -32rem;
+    margin-top: 0.7rem;
+    width: 12rem !important;
+    background-position: 0rem -21rem;
+    background-size: 9rem 36rem !important;
+    display:inline-block;
+}
+#img3 p{
+    float: right;
+    margin-right: -19rem;
+    margin-top: 1.8rem;
+    color: rgb(86,104,138);
+    display:inline-block;
+}
+#img4 u{
+    float:right;
+    margin-right: 10rem;
+    margin-top: 40rem;
+    background-position: 0rem -31rem;
+    background-size: 9rem 36rem !important;
+    display:inline-block;
+}
+#under{
+    float: left;
+    margin-left: -1rem;
+    width: 100%;
+    margin-top: -1.4rem;
+    border: 0.5px rgb(183,192,205) solid;
+    display:inline-block;
+}

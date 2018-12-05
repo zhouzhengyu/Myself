@@ -1,0 +1,232 @@
+html{
+    font-size: 65%;
+}  
+#main{
+    background-color:rgb(231, 227, 227); 
+    box-sizing: content-box;
+    position: absolute;
+    min-width: 50rem;
+    width:100%;
+    min-height:192rem;
+    max-height: 600%;
+}
+#head{
+    background: url(./1_01.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: content-box;
+    position: absolute;
+    width: 100%;
+    height: 38rem;
+}
+#title{
+    position: absolute;
+    width: 100%;
+    top: 42rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#centercontent{
+    position: absolute;
+    top: 15rem;
+    width: 65%;
+    min-width: 50rem;
+    min-height:166rem;
+    max-height: 600%;
+}
+.content{
+     margin-right: 40rem;
+}
+#content{
+    box-sizing:content-box; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40rem;
+    height: 22rem;
+    top: 31rem;
+}
+i{
+    background:url(./img.png)  no-repeat;
+    width: 6rem;
+    height: 6rem;
+    background-size: 39rem 54rem;
+   
+}
+.one i{
+    position: absolute;
+    padding: 0.5%;
+    background-position: 3rem 3rem;
+    cursor: pointer;
+}
+.one p{
+    position: absolute;
+    padding: 0.5%;
+    left: 6rem;
+    top: 2rem;
+    margin-right: 10%;
+   
+}
+.two i{
+    position: absolute;
+    padding: 0.5%;
+    left: 18rem;
+    background-position:-22rem 3rem;
+    cursor: pointer;
+}
+.two p{
+    position: absolute;
+    left: 24rem;
+    top: 2.5rem;
+}
+.three i{
+    position: absolute;
+    padding: 0.5%;
+    top: 11rem;
+    background-position: 2rem -10rem;
+    cursor: pointer;
+}
+.three p{
+    position: absolute;
+    left: 7rem;
+    top: 13.5rem;
+}
+.four i{
+    position: absolute;
+    left: 19rem;
+    top: 11rem;
+    background-position:-22rem -10rem;
+    cursor: pointer;
+}
+.four p{
+    position: absolute;
+    left: 25rem;
+    top: 13rem;
+}
+
+#content1{
+    background: url(./2_02.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: content-box;
+    position: absolute;
+    width: 100%;
+    height: 38rem;
+    top: 69rem;
+}
+#data{
+    position: absolute;
+    width: 100%;
+    top: 41rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#explain{
+    position: absolute;
+    width: 100%;
+    top: 45rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#task{
+    position: absolute;
+    width: 67%;
+    min-width: 50rem;
+    height:66rem;
+    top:20rem;
+}
+.task3{
+    margin-right: 50rem;
+}
+#task3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50rem;
+    height: 22rem;
+}
+.task3_03 i{
+    position: absolute;
+    background-position:0rem -23rem;
+    left: 9rem;
+    top: 32rem;
+    cursor: pointer;
+}
+
+.task3_03 p{
+    position: absolute;
+    left: 11rem;
+    top: 36rem;
+    cursor: pointer;
+}
+.task3_06 i{
+    position: absolute;
+    background-position:-22rem -23rem;
+    left: 30rem;
+    top: 31.8rem;
+    cursor: pointer;
+}
+.task3_06 p{
+    position: absolute;
+    left: 32rem;
+    top: 36rem;
+    cursor: pointer;
+}
+.img2{
+    background: url(./img2.png) no-repeat;
+    background-size: 23rem 16rem;
+    position: absolute;
+    width: 24rem;
+    height: 16rem;
+    right:0;
+    top: 65rem;
+    
+}
+.img3{
+    background: url(./img3.png) no-repeat;
+    background-size: 23rem 16rem;
+    position: absolute;
+    left: 0rem;
+    top: 44rem;
+    width: 24rem;
+    height: 16rem;
+}
+#aside{
+    box-sizing:content-box; 
+    position: absolute;
+    width: 36rem;
+    height: 10rem;
+    right: 2%;
+    top: 175rem;
+}
+
+.task3_26 i{
+    position: absolute;
+    background-position: -36rem -41rem;
+    left: 31rem;
+    top: -1.3rem;
+    cursor: pointer;
+}
+.task3_29 i{
+    position: absolute;
+    background-position: -36rem -47rem;
+    background-size: 39rem 55rem !important;
+    left: 31rem;
+    top: 3rem;
+    cursor: pointer;
+}
+.task3_32 i{
+    position: absolute;
+    background-position: -36.1rem -51rem;
+    left: 31rem;
+    top: 6rem;
+    cursor: pointer;
+}
+#foot{
+    background-color: rgb(31, 29, 29);
+    box-sizing:content-box; 
+    position: absolute;
+    width:100%;
+    height: 6rem;
+    top: 188rem;
+}
