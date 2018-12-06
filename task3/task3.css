@@ -14,8 +14,6 @@ i{
     position: absolute;
     min-width: 50rem;
     width:100%;
-    min-height:192rem;
-    max-height: 600%;
 }
 .background{
     background-color:rgb(20, 20,20) ;
@@ -768,8 +766,9 @@ i{
 }
 #foot{
     background-color: rgb(31, 29, 29);
-    box-sizing:content-box; 
+    box-sizing:content-box;
     display:flex;
+    margin-bottom: 0px;
     width:100%;
     height: 6rem;
 }
