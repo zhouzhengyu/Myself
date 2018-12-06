@@ -1,6 +1,14 @@
 html{
     font-size: 65%;
-}  
+} 
+
+i{
+    background:url(./img.png)  no-repeat;
+    width: 6rem;
+    height: 6rem;
+    background-size: 39rem 54rem;
+   
+} 
 #main{
     box-sizing: content-box;
     position: absolute;
@@ -9,26 +17,131 @@ html{
     min-height:192rem;
     max-height: 600%;
 }
-#head{
-    background: url(./1_01.png) no-repeat;
+.background{
+    background-color:rgb(20, 20,20) ;
     background-size: 100% 100%;
     box-sizing: content-box;
     position: absolute;
     width: 100%;
+    min-width: 50rem;
     height: 38rem;
+}
+#background{
+    background: url(./1_01.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: content-box;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    min-width: 50rem;
+    height: 38rem;
+    opacity:0.5;
+}
+#head{
+    box-sizing: content-box;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    min-width: 50rem;
+    height: 38rem;
+}
+#span{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 2rem;
+    font-size: 3rem;
+    color: white;
+}
+#p{
+    display:flex;
+    width: 100%;
+    height: 6rem;
+    margin-top:7rem;
+}
+#p1{
+    flex: 1;
+    display:flex;
+}
+#p2{
+    width: 40rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+#p3{
+    display:flex;
+    flex: 1;
+}
+#sign{
+    display:flex;
+    width: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+.sign1{
+    display:flex;
+    flex: 1;
+}
+.sign2{
+    width: 50rem;
+    height: 17rem;
+    border: 0.5px white solid;
+}
+#ti{
+    width: 50rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+#tit{
+    margin-top: 0rem;
+    width: 50rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.input{
+    background-color:transparent; 
+    border: 0.5px white solid;
+    color: white;
+    text-align: center;
+    width: 14rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.button{
+    border: 0.5px white solid;
+    background-color:white; 
+    text-align: center;
+    width: 7rem;
+    height: 2.5rem;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.sign3{
+    display:flex;
+    flex: 1;
 }
 #title{
     position: absolute;
     width: 100%;
+    min-width: 50rem;
     top: 42rem;
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 #centercontent{
     display:flex;
     flex-direction:row;
     width: 100%;
+    min-width: 50rem;
     margin-top:45rem;
     min-width: 40rem;
     height: 22rem;
@@ -39,7 +152,7 @@ html{
     
 }
 #content{
-    width: 40rem;
+    width: 50rem;
     height: 22rem;
 }
 #ricontent{
@@ -47,190 +160,616 @@ html{
     flex:1;
 }
 
-i{
-    background:url(./img.png)  no-repeat;
-    width: 6rem;
-    height: 6rem;
-    background-size: 39rem 54rem;
-   
-}
 .one i{
     display:flex;
     padding: 0.5%;
     background-position: 3rem 3rem;
     cursor: pointer;
 }
-.one p{
+.one span{
     display:flex;
     padding: 0.5%;
     margin-left: 7rem;
-    margin-top: -3rem;
-   
+    margin-top: -3.3rem; 
+}
+.one p{
+    display:flex;
+    width: 17rem;
+    padding: 0.5%;
+    margin-left: 7rem;
+    margin-top: 1rem;
 }
 .two i{
     display:flex;
     padding: 0.5%;
-    margin-left: 25rem;
-    margin-top: -6rem;
+    margin-left: 26rem;
+    margin-top: -10rem;
     background-position:-22rem 3rem;
     cursor: pointer;
 }
+.two span{
+    display:flex;
+    margin-left: 33rem;
+    margin-top: -3rem;
+}
 .two p{
     display:flex;
+    width: 17rem;
     margin-left: 32rem;
-    margin-top: -3rem;
+    margin-top: 1rem;
 }
 .three i{
     display:flex;
     padding: 0.5%;
-    margin-top: 9rem;
+    margin-top: 5rem;
     background-position: 2rem -10rem;
     cursor: pointer;
 }
-.three p{
+.three span{
     display:flex;
     margin-left: 7rem;
     margin-top: -3rem;
 }
+.three p{
+    display:flex;
+    width: 17rem;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
 .four i{
     display:flex;
-    margin-left: 26rem;
-    margin-top: -5.5rem;
+    margin-left: 27rem;
+    margin-top: -11rem;
     background-position:-22rem -10rem;
     cursor: pointer;
 }
-.four p{
+.four span{
     display:flex;
-    margin-left: 32rem;
+    margin-left: 33rem;
     margin-top: -3rem;
 }
+.four p{
+    display:flex;
+    width: 17rem;
+    margin-left: 33rem;
+    margin-top: 1.5rem;
+}
 
-#content1{
+.background1{
+    background-color:rgb(20, 20,20) ;
+    background-size: 100% 100%;
+    box-sizing: content-box;
+    display:flex;
+    width: 100%;
+    min-width: 50rem;
+    height: 38rem;
+    margin-top: 9rem;
+}
+#background1{
     background: url(./2_02.png) no-repeat;
     background-size: 100% 100%;
     box-sizing: content-box;
-    position: absolute;
+    display:flex;
     width: 100%;
+    min-width: 50rem;
     height: 38rem;
-    top: 69rem;
+    margin-top: -38rem;
+    opacity:0.5;
+}
+#content1{
+    box-sizing: content-box;
+    display:flex;
+    width: 100%;
+    min-width: 50rem;
+    height: 38rem;
+    margin-top: -38rem;
+}
+#left{
+    display:flex;
+    width: 50%;
+    height: 38rem;
+}
+#text1{
+    display:flex;
+    flex: 1;
+}
+#text{
+    width: 20rem;
+    height: 10rem;
+    font-size: 2.4rem;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-top: 1rem;
+}
+#textp{
+    margin-left:-19rem;
+    margin-top:10rem;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+#button{
+    background-color:white; 
+    border: 0.5px white solid;
+    text-align: center;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+    margin-left: -19rem;
+    margin-top: 22rem;
+}
+#button1{
+    background-color:transparent; 
+    border: 0.5px white solid;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 22rem;
+}
+#text2{
+    display:flex;
+    flex: 1;
+}
+#right{
+    display:flex;
+    width: 50%;
+    height: 38rem;
+}
+#search{
+    border: 0.5px white solid;
+    border-radius: 1rem;
+    position: absolute;
+    margin-top: 9rem;
+    right: -2rem;
+    width: 26rem;
+    height: 24rem;
+}
+#search1{
+    position: absolute;
+    background-color: white;
+    margin-top: 1rem;
+    right: 2rem;
+    width: 23rem;
+    height: 22rem;
 }
 #data{
-    position: absolute;
+    margin-top: 1rem;
     width: 100%;
-    top: 41rem;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
 }
 #explain{
-    position: absolute;
     width: 100%;
-    top: 45rem;
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
     text-align: center;
-}
-#task{
-    display:flex;
-    flex-direction:row;
-    width: 100%;
-    min-width: 50rem;
-    height:65rem;
-    margin-top:48rem;
-}
-.task3{
-    display:flex;
-    flex: 1;
-}
-#task3{
-    display:flex;
-    width: 50rem;
-    height:65rem;
-}
-#task30{
-    display:flex;
-    flex: 1;
 }
 .task3_03 i{
     display:flex;
-    margin-top: 0;
-    margin-left: 9rem;
+    margin-left: 3rem;
     background-position:0rem -23rem;
     cursor: pointer;
 }
-
 .task3_03 p{
     display:flex;
     margin-top: 0;
-    margin-left: 11rem;
+    margin-left: 5rem;
     cursor: pointer;
 }
 .task3_06 i{
     display:flex;
     background-position:-22rem -23rem;
-    margin-top: 0;
-    margin-left: 18rem;
+    margin-top: -8.3rem;
+    margin-left: 16rem;
     cursor: pointer;
 }
 .task3_06 p{
     display:flex;
     margin-top: 0;
-    margin-left: 20.5rem;
+    margin-left: 18.5rem;
     cursor: pointer;
+}
+
+.content1{
+    display:flex;
+    width: 100%;
+    min-width: 50rem;
+    height: 15rem;
+}
+.title{
+    position: absolute;
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+#logo1{
+    display: flex;
+    flex:1 0 30%;
+    height: 2rem;
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-family: 'STXingkai';
+    text-align: center;
+    display: inline-block;
+}
+#logo2{
+    flex:1 0 30%;
+    margin-top: 10rem;
+    height: 2rem;
+    font-size: 3rem;
+    font-family: 'STXingkai';
+    text-align: center;
+}
+#logo3{
+    flex:1 0 30%;
+    height: 2rem;
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-family: 'STXingkai';
+    text-align: center;
+}
+#content2{
+    display:flex;
+    width: 100%;
+    min-width: 50rem;
+    height: 15rem;
+}
+#logo11{
+    display: flex;
+    flex:1 0 30%;
+    height: 10rem;
+}
+#p4{
+    display: flex;
+    flex: 1;
+}
+#p5{
+    width: 16rem;
+    font-size: 1rem;
+    font-family: sans-serif !important;
+    text-align: center;
+    display: inline-block;
+}
+#p6{
+    display: flex;
+    flex: 1;
+}
+#logo21{
+    display: flex;
+    flex:1 0 30%;
+    width: 20rem;
+    height: 10rem;
+    font-size: 1rem;
+}
+#p7{
+    display: flex;
+    flex: 1;
+}
+#p8{
+    width: 16rem;
+    font-family: sans-serif !important;
+    text-align: center;
+    display: inline-block;
+}
+#p9{
+    display: flex;
+    flex: 1;
+}
+#logo31{
+    display: flex;
+    flex:1 0 30%;
+    height: 10rem;
+    font-size: 1rem;
+}
+#p10{
+    display: flex;
+    flex: 1;
+}
+#p11{
+    width: 16rem;
+    font-family: sans-serif !important;
+    text-align: center;
+    display: inline-block;
+}
+#p12{
+    display: flex;
+    flex: 1;
+}
+
+#task{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    min-width: 50rem;
+    height: 18rem;
+    margin-top: 6rem;
+}
+#task2{
+    display:flex;
+    flex: 6%;
+}
+.img20{
+    display:flex;
+    flex: 1;
 }
 .img2{
     background: url(./img2.png) no-repeat;
-    background-size: 23rem 16rem;
+    background-size: 25rem 18rem;
+    display: flex;
+    width: 25rem;
+    height: 18rem;
+}
+.img22{
+    flex: 1;
+    width: 23rem;
+}
+#img22{
+    text-align: center;
+    display: inline-block;
+    width: 23rem;
+    margin-top: 2rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.img22 p{
+    text-align: center;
+    display: inline-block;
+    width: 16rem;
+    height: 18rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 100;
+}
+#task3{
     display:flex;
-    width: 24rem;
-    height: 16rem;
-    margin-top: 11rem;
-    margin-left: -39rem;
+    flex: 1;
+}
+
+.task{
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    min-width: 50rem;
+    height: 18rem;
+    margin-top: 6rem;
+}
+.task3{
+    display:flex;
+    flex: 1;
+}
+.task2{
+    display:flex;
+    flex: 6%;
+}
+.img30{
+    display:flex;
+    flex: 1;
 }
 .img3{
     background: url(./img3.png) no-repeat;
-    background-size: 23rem 16rem;
-    display:flex;
-    margin-top: 28rem;
-    margin-left: 4rem;
-    width: 24rem;
-    height: 16rem;
+    background-size: 25rem 18rem;
+    display: flex;
+    width: 25rem;
+    height: 18rem;
 }
-#aside{
-    box-sizing:content-box; 
-    position: absolute;
-    width: 36rem;
-    height: 10rem;
-    right: 2%;
-    top: 175rem;
+#img32{
+    text-align: center;
+    display: inline-block;
+    width: 23rem;
+    height: 4rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.img32 p{
+    text-align: center;
+    width: 16rem;
+    height: 18rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
+
+#aside{
+    box-sizing:content-box; 
+    display: flex;
+    display: inline-block;
+    min-width: 50rem;
+    width: 100%;
+    height: 10rem;
+    margin-top: 206rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+.asideTitle{
+    display: inline-block;
+    width: 40rem;
+    text-align: center;
+    font-size: 1rem;
+}
+#user{
+    box-sizing:content-box; 
+    display: flex;
+    margin-top: 2rem;
+    min-width: 50rem;
+    width: 100%;
+    height: 37rem;
+}
+#user1{
+    display:flex;
+    flex: 1;
+    height:30rem;
+}
+#user2{
+    width: 45rem;
+    height:30rem;
+}
+.user1{
+    background: url(./user1.png) no-repeat;
+    background-size: 21rem 16rem;
+    float: left;
+    padding:1%;
+    width: 21rem;
+    height: 16rem;
+}
+#a{
+    opacity: 0;
+    width: 20.5rem;
+    height: 16rem;
+    margin-top: -0.4rem;
+    margin-left: -0.3rem;
+}
+#a:hover{ 
+    background-color:rgb(20, 20,20);
+    opacity: 0.5;
+}
+#atext{ 
+    color: aliceblue; 
+    margin-top: 3rem;
+    width: 21rem;
+    font-size:1.5rem;
+    text-align: center;
+    display: inline-block;
+}
+#a p{
+    color: aliceblue; 
+    width: 21rem;
+    font-size:1rem !important;
+    text-align: center; 
+}
+#icon1 i{
+    float: left;
+    margin-left: 1.5rem;
+    background-position: 1rem -35.4rem;
+    width: 6rem;
+    height: 6rem;
+}
+#icon2 i{
+    float: left;
+    background-position: -13rem -35.4rem;
+    width: 6rem;
+    height: 6rem;
+}
+#icon3 i{
+    float: left;
+    background-position: -27rem -35.3rem;
+    width: 6rem;
+    height: 6rem;
+}
+.user2{
+    background: url(./user2.png) no-repeat;
+    background-size: 21rem 16rem;
+    float: left;
+    padding:1%;
+    width: 21rem;
+    height: 16rem;
+}
+.user3{
+    background: url(./user3.png) no-repeat;
+    background-size: 21rem 16rem;
+    float: left;
+    padding:1%;
+    width: 21rem;
+    height: 16rem;
+}
+.user4{
+    background: url(./user4.png) no-repeat;
+    background-size: 21rem 16rem;
+    float: left;
+    padding:1%;
+    width: 21rem;
+    height: 16rem;
+}
+#user3{
+    display:flex;
+    flex: 1;
+    height:30rem;
+}
+
+#form{
+    box-sizing:content-box; 
+    display: flex;
+    margin-top: 12rem;
+    min-width: 50rem;
+    width: 100%;
+    height: 37rem;
+}
+#fell1{
+    display:flex;
+    flex: 1;
+    height:30rem;
+}
+#fell2{
+    display: inline-block;
+    width: 29rem;
+    height:30rem;
+    margin-left: -8rem;
+}
+#contact{
+    display: inline-block;
+    width: 17rem;
+    height:30rem;
+}
+#fell3{
+    display:flex;
+    flex: 1;
+    height:30rem;
+}
 .task3_26 i{
-    position: absolute;
+    display:flex;
     background-position: -36rem -41rem;
-    left: 31rem;
-    top: -1.3rem;
+    margin-top: -1.5rem;
     cursor: pointer;
+}
+.task3_26 p{
+    font-size: 1rem;
+    width:13rem;
+    height: 6rem;
+    margin-left: 4rem;
+    margin-top: -2.5rem;
 }
 .task3_29 i{
-    position: absolute;
+    display:flex;
     background-position: -36rem -47rem;
     background-size: 39rem 55rem !important;
-    left: 31rem;
-    top: 3rem;
+    margin-top: -5.5rem;
     cursor: pointer;
 }
+.task3_29 p{
+    font-size: 1rem;
+    width:13rem;
+    height: 6rem;
+    margin-left: 1.7rem;
+    margin-top: -3.7rem;
+}
 .task3_32 i{
-    position: absolute;
+    display:flex;
     background-position: -36.1rem -51rem;
-    left: 31rem;
-    top: 6rem;
+    margin-top: -5.5rem;
     cursor: pointer;
+}
+.task3_32 p{
+    font-size: 1rem;
+    width:13rem;
+    height: 6rem;
+    margin-left: 2.9rem;
+    margin-top: -4.5rem;
 }
 #foot{
     background-color: rgb(31, 29, 29);
     box-sizing:content-box; 
-    position: absolute;
+    display:flex;
     width:100%;
     height: 6rem;
-    top: 188rem;
 }
