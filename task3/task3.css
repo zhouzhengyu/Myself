@@ -1,7 +1,9 @@
 html{
     font-size: 65%;
 } 
-
+body{
+    font-family: sans-serif;
+}
 i{
     background:url(./img.png)  no-repeat;
     width: 6rem;
