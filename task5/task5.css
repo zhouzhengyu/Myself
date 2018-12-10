@@ -294,23 +294,23 @@
       background-size: 13rem 50rem !important;
       display:inline-block;
   }
-  #img3 ul {
+#img3 ul {
       float: right;
       margin-right: -27rem;
       margin-top: 8.2rem;
       height: 2rem !important;
   }
-  #img3 ul li a{
+#img3 ul li a{
    font-size: 1rem;
 }
-  #img3 p{
+#img3 p{
       float: right;
       margin-right: -19rem;
       margin-top: 9rem;
       color: rgb(86,104,138);
       display:inline-block;
-  }
-  #img4 u{
+}
+#img4 u{
       float:right;
       margin-right: 10rem;
       margin-top: 40rem;
