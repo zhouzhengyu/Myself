@@ -321,7 +321,7 @@
   #under{
       float: left;
       width: 100%;
-      min-width: 58rem;
+      min-width: 58.5rem;
       margin-top: -52rem;
   }
   #under1{
@@ -330,7 +330,7 @@
       border: 0.5px rgb(183,192,205) solid;
   }
   #under2{
-      margin-left: 58rem;
+      margin-left: 58.5rem;
       width: 100%;
       border: 0.5px rgb(183,192,205) solid;
   }
