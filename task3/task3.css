@@ -1,6 +1,4 @@
-html{
-    font-size: 65%;
-} 
+ 
 body{
     font-family: sans-serif;
 }
@@ -11,45 +9,43 @@ i{
     background-size: 39rem 54rem;
    
 } 
-#main{
-    box-sizing: content-box;
-    position: absolute;
-    min-width: 50rem;
-    width:100%;
+u{
+    background:url(./img4.png)  no-repeat;
+    width: 4rem;
+    height: 4rem; 
+    border: 0.5px white solid;
+    border-radius: 5rem;
 }
 .background{
-    background-color:rgb(20, 20,20) ;
-    background-size: 100% 100%;
-    box-sizing: content-box;
     position: absolute;
+    background-color:rgb(20, 20,20) ;
+    background-size: 100%;
     width: 100%;
-    min-width: 50rem;
-    height: 38rem;
+    height: 62.5rem;
+    object-fit: cover;
+   
 }
 #background{
-    background: url(./1_01.png) no-repeat;
-    background-size: 100% 100%;
-    box-sizing: content-box;
     position: absolute;
-    display: inline-block;
+    background: url(./1_01.png) no-repeat;
+    background-size: 100% 62.5rem;
     width: 100%;
-    min-width: 50rem;
-    height: 38rem;
+    height: 62.5rem;
     opacity:0.5;
+    object-fit: cover;
 }
 #head{
     box-sizing: content-box;
     position: absolute;
     display: inline-block;
     width: 100%;
-    min-width: 50rem;
     height: 38rem;
+    margin-top: 12rem;
 }
 #span{
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 2rem;
     font-size: 3rem;
     color: white;
 }
@@ -57,7 +53,7 @@ i{
     display:flex;
     width: 100%;
     height: 6rem;
-    margin-top:7rem;
+    margin-top:5.5rem;
 }
 #p1{
     flex: 1;
@@ -68,6 +64,7 @@ i{
     text-align: center;
     font-size: 1rem;
     color: white;
+    opacity:0.5;
 }
 #p3{
     display:flex;
@@ -77,43 +74,42 @@ i{
     display:flex;
     width: 100%;
     height: 20rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
     font-size: 3rem;
 }
 .sign1{
     display:flex;
-    flex: 1;
+    flex: 19.5rem;
 }
 .sign2{
-    width: 50rem;
+    width: 60.5rem;
     height: 17rem;
-    border: 0.5px white solid;
+    border: 0.5px rgb(128, 127, 126) solid;
 }
 #ti{
-    width: 50rem;
-    height: 2rem;
+    margin-top:2rem;
+    width: 100%;
     font-size: 1.5rem;
     text-align: center;
     color: white;
     display: inline-block;
 }
 #tit{
-    margin-top: 0rem;
-    width: 50rem;
-    height: 2rem;
+    width: 100%;
     font-size: 1rem;
     text-align: center;
     color: white;
     display: inline-block;
+    opacity:0.5;
 }
 .input{
     background-color:transparent; 
-    border: 0.5px white solid;
+    border: 0.5px rgb(128, 127, 126) solid;
     color: white;
     text-align: center;
-    width: 14rem;
-    height: 2rem;
-    margin-left: 3rem;
+    width: 18rem;
+    height: 3rem;
+    margin-left: 4rem;
     margin-top: 3rem;
 }
 .button{
@@ -121,43 +117,64 @@ i{
     background-color:white; 
     text-align: center;
     width: 7rem;
-    height: 2.5rem;
+    height: 3rem;
     margin-left: 3rem;
     margin-top: 3rem;
 }
 .sign3{
     display:flex;
-    flex: 1;
+    flex: 19.5rem;
+}
+
+#centercontent{
+    flex-direction:row;
+    width: 100%;
+    margin-top: 62.5rem;
+    display: inline-block;
+    height: 44.5rem;
 }
 #title{
-    position: absolute;
+    display:flex;
     width: 100%;
-    min-width: 50rem;
-    top: 42rem;
+    height: 17rem;
+}
+#title1{
+    display: flex;
+    flex: 1; 
+}
+#title2{
+    display: inline-block;
+    width: 33rem;
+    margin-top: 8rem;
     font-size: 2.4rem;
     text-align: center;
 }
-#centercontent{
-    display:flex;
-    flex-direction:row;
-    width: 100%;
-    min-width: 50rem;
-    margin-top:45rem;
-    min-width: 40rem;
-    height: 22rem;
+#title3{
+    display: flex;
+    flex: 1; 
 }
 .content{
     display:flex;
-    flex:1;
-    
+}
+#lecontent{
+    display:flex;
+    width: 18rem;
 }
 #content{
-    width: 50rem;
-    height: 22rem;
+    display: inline-block;
+    height: 26.8rem;
+}
+#cecontent{
+    display:flex;
+    flex:1;  
+}
+#ascontent{
+    display: inline-block;
+    height: 26.8rem;
 }
 #ricontent{
     display:flex;
-    flex:1;
+    width: 18rem;
 }
 
 .one i{
@@ -183,7 +200,6 @@ i{
     display:flex;
     padding: 0.5%;
     margin-left: 26rem;
-    margin-top: -10rem;
     background-position:-22rem 3rem;
     cursor: pointer;
 }
@@ -196,7 +212,6 @@ i{
     display:flex;
     width: 17rem;
     margin-left: 32rem;
-    margin-top: 1rem;
 }
 .three i{
     display:flex;
@@ -219,9 +234,9 @@ i{
 .four i{
     display:flex;
     margin-left: 27rem;
-    margin-top: -11rem;
     background-position:-22rem -10rem;
     cursor: pointer;
+    margin-top: 3rem;
 }
 .four span{
     display:flex;
@@ -237,32 +252,28 @@ i{
 
 .background1{
     background-color:rgb(20, 20,20) ;
-    background-size: 100% 100%;
+    background-size: 100%;
     box-sizing: content-box;
     display:flex;
     width: 100%;
-    min-width: 50rem;
-    height: 38rem;
-    margin-top: 9rem;
+    height: 50rem;
 }
 #background1{
     background: url(./2_02.png) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 50rem;
     box-sizing: content-box;
     display:flex;
+    margin-top: -50rem;
     width: 100%;
-    min-width: 50rem;
-    height: 38rem;
-    margin-top: -38rem;
+    height: 50rem;
     opacity:0.5;
 }
 #content1{
     box-sizing: content-box;
     display:flex;
     width: 100%;
-    min-width: 50rem;
-    height: 38rem;
-    margin-top: -38rem;
+    height: 62.5rem;
+    margin-top: -62.5rem;
 }
 #left{
     display:flex;
@@ -274,21 +285,19 @@ i{
     flex: 1;
 }
 #text{
-    width: 20rem;
+    width: 24rem;
     height: 10rem;
-    font-size: 2.4rem;
-    text-align: center;
+    font-size: 3rem;
     color: white;
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 17rem;
 }
 #textp{
-    margin-left:-19rem;
-    margin-top:10rem;
-    width: 20rem;
+    margin-left: -24rem;
+    margin-top: 34rem;
+    width: 28rem;
     height: 10rem;
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.5rem;
     color: white;
     display: inline-block;
 }
@@ -297,10 +306,10 @@ i{
     border: 0.5px white solid;
     text-align: center;
     font-size: 1rem;
-    width: 10rem;
-    height: 3rem;
-    margin-left: -19rem;
-    margin-top: 22rem;
+    width: 15rem;
+    height: 5rem;
+    margin-left: -28rem;
+    margin-top: 48rem;
 }
 #button1{
     background-color:transparent; 
@@ -308,10 +317,10 @@ i{
     color: white;
     text-align: center;
     font-size: 1rem;
-    width: 10rem;
-    height: 3rem;
+    width: 15rem;
+    height: 5rem;
     margin-left: 2rem;
-    margin-top: 22rem;
+    margin-top: 48rem;
 }
 #text2{
     display:flex;
@@ -326,18 +335,18 @@ i{
     border: 0.5px white solid;
     border-radius: 1rem;
     position: absolute;
-    margin-top: 9rem;
+    margin-top: 18rem;
     right: -2rem;
-    width: 26rem;
-    height: 24rem;
+    width: 42rem;
+    height: 40rem;
 }
 #search1{
     position: absolute;
     background-color: white;
-    margin-top: 1rem;
+    margin-top: 3rem;
     right: 2rem;
-    width: 23rem;
-    height: 22rem;
+    width: 36.5rem;
+    height: 34rem;
 }
 #data{
     margin-top: 1rem;
@@ -354,34 +363,34 @@ i{
 }
 .task3_03 i{
     display:flex;
-    margin-left: 3rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
     background-position:0rem -23rem;
     cursor: pointer;
 }
 .task3_03 p{
     display:flex;
     margin-top: 0;
-    margin-left: 5rem;
+    margin-left: 9rem;
     cursor: pointer;
 }
 .task3_06 i{
     display:flex;
     background-position:-22rem -23rem;
     margin-top: -8.3rem;
-    margin-left: 16rem;
+    margin-left: 23rem;
     cursor: pointer;
 }
 .task3_06 p{
     display:flex;
     margin-top: 0;
-    margin-left: 18.5rem;
+    margin-left: 25.5rem;
     cursor: pointer;
 }
 
 .content1{
     display:flex;
     width: 100%;
-    min-width: 50rem;
     height: 15rem;
 }
 .title{
@@ -391,97 +400,88 @@ i{
     text-align: center;
     font-size: 2.4rem;
 }
+#logo0{
+    display:flex;
+    flex: 1;
+}
 #logo1{
-    display: flex;
-    flex:1 0 30%;
-    height: 2rem;
-    margin-top: 10rem;
+    width: 25rem;
     font-size: 3rem;
     font-family: 'STXingkai';
     text-align: center;
+}
+#logo1 p{
+    width: 17rem;
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-family: 'STXingkai';
     display: inline-block;
 }
 #logo2{
-    flex:1 0 30%;
-    margin-top: 10rem;
-    height: 2rem;
-    font-size: 3rem;
-    font-family: 'STXingkai';
+    width: 25rem;
     text-align: center;
 }
+#logo2 p{
+    width: 17rem;
+    font-size: 3rem;
+    margin-top: 10rem;
+    font-family: 'STXingkai';
+    display: inline-block;
+}
 #logo3{
-    flex:1 0 30%;
-    height: 2rem;
+    width: 25rem;
+    text-align: center;
+}
+#logo3 p{
+    width: 17rem;
     margin-top: 10rem;
     font-size: 3rem;
     font-family: 'STXingkai';
-    text-align: center;
+    display: inline-block;
+    
+}
+#logo4{
+    display:flex;
+    flex: 1;
 }
 #content2{
     display:flex;
     width: 100%;
-    min-width: 50rem;
     height: 15rem;
 }
+#logo10{
+    display:flex;
+    flex: 1;
+}
 #logo11{
-    display: flex;
-    flex:1 0 30%;
-    height: 10rem;
-}
-#p4{
-    display: flex;
-    flex: 1;
-}
-#p5{
-    width: 16rem;
-    font-size: 1rem;
-    font-family: sans-serif !important;
+    width: 25rem;
     text-align: center;
-    display: inline-block;
 }
-#p6{
-    display: flex;
-    flex: 1;
+#logo11 p{
+    width: 17rem;
+    font-size: 1rem;
+    display: inline-block;
 }
 #logo21{
-    display: flex;
-    flex:1 0 30%;
-    width: 20rem;
-    height: 10rem;
-    font-size: 1rem;
-}
-#p7{
-    display: flex;
-    flex: 1;
-}
-#p8{
-    width: 16rem;
-    font-family: sans-serif !important;
+    width: 25rem;
     text-align: center;
-    display: inline-block;
 }
-#p9{
-    display: flex;
-    flex: 1;
+#logo21 p{
+    width: 17rem;
+    font-size: 1rem;
+    display: inline-block;
 }
 #logo31{
-    display: flex;
-    flex:1 0 30%;
-    height: 10rem;
-    font-size: 1rem;
-}
-#p10{
-    display: flex;
-    flex: 1;
-}
-#p11{
-    width: 16rem;
-    font-family: sans-serif !important;
+    width: 25rem;
     text-align: center;
+}
+#logo31 p{
+    width: 17rem;
+    font-size: 1rem;
     display: inline-block;
 }
-#p12{
-    display: flex;
+#logo41{
+    display:flex;
     flex: 1;
 }
 
@@ -493,73 +493,61 @@ i{
     height: 18rem;
     margin-top: 6rem;
 }
-#task2{
-    display:flex;
-    flex: 6%;
-}
 .img20{
     display:flex;
-    flex: 1;
+    flex:18rem;
 }
 .img2{
     background: url(./img2.png) no-repeat;
-    background-size: 25rem 18rem;
-    display: flex;
-    width: 25rem;
+    background-size: 100%;
+    width: 40rem;
+    height: 25rem;
+}
+.img21{
     height: 18rem;
 }
 .img22{
-    flex: 1;
-    width: 23rem;
+    display:flex;
+    flex: 18rem;
 }
-#img22{
+#img21{
     text-align: center;
     display: inline-block;
     width: 23rem;
     margin-top: 2rem;
+    margin-left: 6rem;
     height: 4rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
-.img22 p{
+.img21 p{
     text-align: center;
-    display: inline-block;
     width: 16rem;
     height: 18rem;
-    margin-left: 4rem;
+    margin-left: 10rem;
     font-size: 1rem;
     font-weight: 100;
 }
-#task3{
-    display:flex;
-    flex: 1;
-}
+
 
 .task{
     display:flex;
     flex-direction:row;
     width: 100%;
-    min-width: 50rem;
-    height: 18rem;
-    margin-top: 6rem;
+    height: 36rem;
+    margin-top: 10rem;
 }
-.task3{
+.img31{
     display:flex;
-    flex: 1;
-}
-.task2{
-    display:flex;
-    flex: 6%;
-}
-.img30{
-    display:flex;
-    flex: 1;
+    flex: 5%;
 }
 .img3{
     background: url(./img3.png) no-repeat;
-    background-size: 25rem 18rem;
-    display: flex;
-    width: 25rem;
+    background-size: 100%;
+    width: 40rem;
+    height: 25rem;
+}
+.img32{
     height: 18rem;
 }
 #img32{
@@ -568,6 +556,7 @@ i{
     width: 23rem;
     height: 4rem;
     margin-top: 2rem;
+    margin-right: 4rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -575,9 +564,13 @@ i{
     text-align: center;
     width: 16rem;
     height: 18rem;
-    margin-left: 4rem;
     font-size: 1rem;
     font-weight: 100;
+    margin-left: 3rem;
+}
+.img33{
+    display:flex;
+    flex: 5%;
 }
 
 
@@ -585,10 +578,8 @@ i{
     box-sizing:content-box; 
     display: flex;
     display: inline-block;
-    min-width: 50rem;
     width: 100%;
     height: 10rem;
-    margin-top: 206rem;
     text-align: center;
     font-size: 2.4rem;
 }
@@ -602,36 +593,47 @@ i{
     box-sizing:content-box; 
     display: flex;
     margin-top: 2rem;
-    min-width: 50rem;
     width: 100%;
     height: 37rem;
 }
 #user1{
     display:flex;
-    flex: 1;
+     width: 19rem;
     height:30rem;
 }
 #user2{
-    width: 45rem;
+    display:flex;
+    flex: 1;
     height:30rem;
+}
+#user3{
+    width: 60rem;
+    height:30rem;
+}
+#user4{
+    display:flex;
+    flex: 1;
+    height:30rem;
+}
+#user5{
+     display:flex;
+     width: 19rem;
+     height:30rem;
 }
 .user1{
     background: url(./user1.png) no-repeat;
-    background-size: 21rem 16rem;
+    background-size: 100%;
     float: left;
-    padding:1%;
-    width: 21rem;
-    height: 16rem;
+    width: 30rem;
+    height: 21rem;
 }
 #a{
     opacity: 0;
-    width: 20.5rem;
-    height: 16rem;
-    margin-top: -0.4rem;
-    margin-left: -0.3rem;
+    width: 30rem;
+    height: 21rem;
 }
 #a:hover{ 
-    background-color:rgb(20, 20,20);
+    background-color:rgb(102, 102,102);
     opacity: 0.5;
 }
 #atext{ 
@@ -643,88 +645,91 @@ i{
     display: inline-block;
 }
 #a p{
+    display: inline-block;
     color: aliceblue; 
     width: 21rem;
     font-size:1rem !important;
     text-align: center; 
 }
-#icon1 i{
+#icon1 u{
     float: left;
-    margin-left: 1.5rem;
-    background-position: 1rem -35.4rem;
-    width: 6rem;
-    height: 6rem;
+    margin-top: 4rem;
+    margin-left: 6.5rem;
+    background-position: 0.3rem 0rem;
 }
-#icon2 i{
+#icon2 u{
     float: left;
-    background-position: -13rem -35.4rem;
-    width: 6rem;
-    height: 6rem;
+    margin-left:2rem;
+    margin-top: 4rem;
+    background-position: -0.1rem -11rem;
 }
-#icon3 i{
+#icon3 u{
     float: left;
-    background-position: -27rem -35.3rem;
-    width: 6rem;
-    height: 6rem;
+    margin-left:2rem;
+    margin-top: 4rem;
+    background-position: 0rem -22rem;
 }
 .user2{
     background: url(./user2.png) no-repeat;
-    background-size: 21rem 16rem;
+    background-size: 100%;
     float: left;
-    padding:1%;
-    width: 21rem;
-    height: 16rem;
+    width: 30rem;
+    height: 21rem;
 }
 .user3{
     background: url(./user3.png) no-repeat;
-    background-size: 21rem 16rem;
+    background-size: 100%;
     float: left;
-    padding:1%;
-    width: 21rem;
-    height: 16rem;
+    width: 30rem;
+    height: 21rem;
 }
 .user4{
     background: url(./user4.png) no-repeat;
-    background-size: 21rem 16rem;
+    background-size: 100%;
     float: left;
-    padding:1%;
-    width: 21rem;
-    height: 16rem;
-}
-#user3{
-    display:flex;
-    flex: 1;
-    height:30rem;
+    width: 30rem;
+    height: 21rem;
 }
 
 #form{
     box-sizing:content-box; 
     display: flex;
     margin-top: 12rem;
-    min-width: 50rem;
     width: 100%;
     height: 37rem;
 }
 #fell1{
     display:flex;
-    flex: 1;
-    height:30rem;
+    width: 19rem;
+   
 }
 #fell2{
-    display: inline-block;
-    width: 29rem;
-    height:30rem;
-    margin-left: -8rem;
-}
-#contact{
-    display: inline-block;
-    width: 17rem;
-    height:30rem;
-}
-#fell3{
     display:flex;
     flex: 1;
-    height:30rem;
+    
+}
+#fell{
+    float: left;
+    width: 29rem;
+}
+#contact{
+    float: left;
+    width: 29rem;
+    text-align: left;
+
+}
+#fell3{
+    width: 60rem;  
+}
+#fell4{
+    display:flex;
+    flex: 1;
+   
+}
+#fell5{
+    display:flex;
+    width: 19rem;
+   
 }
 .task3_26 i{
     display:flex;
@@ -750,7 +755,7 @@ i{
     font-size: 1rem;
     width:13rem;
     height: 6rem;
-    margin-left: 1.7rem;
+    margin-left: 4rem;
     margin-top: -3.7rem;
 }
 .task3_32 i{
@@ -763,7 +768,7 @@ i{
     font-size: 1rem;
     width:13rem;
     height: 6rem;
-    margin-left: 2.9rem;
+    margin-left: 4rem;
     margin-top: -4.5rem;
 }
 #foot{
