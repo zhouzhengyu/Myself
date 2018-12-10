@@ -321,7 +321,16 @@
   #under{
       float: left;
       width: 100%;
+      min-width: 58rem;
       margin-top: -52rem;
+  }
+  #under1{
+      float: left;
+      width: 58rem;
       border: 0.5px rgb(183,192,205) solid;
-      display:inline-block;
+  }
+  #under2{
+      margin-left: 58rem;
+      width: 100%;
+      border: 0.5px rgb(183,192,205) solid;
   }
