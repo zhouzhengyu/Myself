@@ -25,6 +25,8 @@ u{
     width: 100%;
     height: 62.5rem;
     object-fit: cover;
+    width: 100%;
+    min-width: 100rem;
    
 }
 #background{
@@ -35,12 +37,15 @@ u{
     height: 62.5rem;
     opacity:0.5;
     object-fit: cover;
+    width: 100%;
+    min-width: 100rem;
 }
 #head{
     box-sizing: content-box;
     position: absolute;
     display: inline-block;
     width: 100%;
+    min-width: 100rem;
     height: 38rem;
     margin-top: 12rem;
 }
@@ -338,7 +343,7 @@ u{
     border-radius: 1rem;
     position: absolute;
     margin-top: 18rem;
-    right: -2rem;
+    margin-left: 8rem;
     width: 42rem;
     height: 40rem;
 }
