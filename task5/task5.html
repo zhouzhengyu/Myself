@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>task5</title>
-    <script src="bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link  rel="stylesheet" href="task5.css"/>
-    <link  rel="stylesheet" href="bootstrap.css"/>
 </head>
 <body>
-    <div id="main">
+    <div class="container ">
+            <div class="row" >
     <div id="aside">
         <div class="task4_11"><i></i></div>
         <div class="task4_12"><i></i></div>
@@ -31,17 +33,12 @@
             </ul>
             <div id="underline"></div>
         </div>
+
         <div class="task4_3"><i></i><p>YOUR&nbsp;PRODUCTS</p>
-            <div class="task4_31"><i></i></div>
-            <div class="task4_32"><i></i></div>
-            <div class="task4_33"><i></i></div>
-            <div class="task4_34"><i></i></div>
-            <ul id="products">
-                <li class="products">Books</li>
-                <li class="products">Tutorials</li>
-                <li class="products">Stocks</li>
-                <li class="products">Infographics</li>
-            </ul>
+            <div class="task4_31"><i></i><p>Books</p></div>
+            <div class="task4_32"><i></i><p>Tutorials</p></div>
+            <div class="task4_33"><i></i><p>Stocks</p></div>
+            <div class="task4_34"><i></i><p>Infographics</p></div>
             <div class="underline"></div>
         </div>
 
@@ -54,24 +51,40 @@
             <li class="dashboard">App&nbsp;Settings</li>
         </ul>
         </div>
-        <div class="task4_5"><i></i><p>Monthly&nbsp;Goals</p></div>
+        <div class="task4_5">
+                <div class="progress">
+                        <div class="progress-bar"  style="width: 40%;">
+                        </div>
+                    </div>
+            <p>Monthly&nbsp;Goals</p></div>
     </div>
 
         <div id="leAside">
                 <div id="message">Messages</div>
-                <div class="message"></div>
-                <input type="text" value="Search" class="search">
+                <form role="form">
+                    <div class="form-group">
+                     <input type="text" value="Search" class="form-control">
+                     <span class="glyphicon glyphicon-search"></span>
+                    </div>
+            </form>
         </div>
         
     <div id="reAside">    
         <div id="img1"><u></u><p>Administrator</p></div>
         <div class="task4_6"><i></i><p>Jordan&nbsp;J</p></div>
-        <div id="under"></div>
+        
         <div id="img2"><u></u></div>
-        <div id="img3"><u></u><p>1 of 28</p></div>
+        <div id="img3">
+                <ul class="pagination pagination-lg">
+                        <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+            <p>1 of 28</p>
+        </div>
         <div id="img4"><u></u></div>
-       
-    </div>
+         </div>
+         <div id="under"></div> 
+     </div>
 </div>
 </body>
 </html>
