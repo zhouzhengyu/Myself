@@ -1,6 +1,8 @@
  
 body{
     font-family: sans-serif;
+    width: 100%;
+    min-width: 100rem;
 }
 i{
     background:url(./img.png)  no-repeat;
