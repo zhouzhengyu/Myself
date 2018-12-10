@@ -151,7 +151,7 @@ u{
 }
 #title2{
     display: inline-block;
-    width: 33rem;
+    width: 40rem;
     margin-top: 8rem;
     font-size: 2.4rem;
     text-align: center;
@@ -403,6 +403,7 @@ u{
 .title{
     position: absolute;
     width: 100%;
+    min-width: 100rem;
     margin-top: 2rem;
     text-align: center;
     font-size: 2.4rem;
