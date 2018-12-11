@@ -461,7 +461,6 @@ u{
 }
 .logo11 p{
     width: 17rem;
-    font-size: 1rem;
     display: inline-block;
 }
 .logo21{
@@ -470,7 +469,6 @@ u{
 }
 .logo21 p{
     width: 17rem;
-    font-size: 1rem;
     display: inline-block;
 }
 .logo31{
@@ -479,7 +477,6 @@ u{
 }
 .logo31 p{
     width: 17rem;
-    font-size: 1rem;
     display: inline-block;
 }
 .logo41{
@@ -523,10 +520,9 @@ u{
 }
 .img21 p{
     text-align: center;
-    width: 16rem;
+    width: 18rem;
     height: 18rem;
     margin-left: 10rem;
-    font-size: 1rem;
     font-weight: 100;
 }
 
@@ -557,9 +553,8 @@ u{
 }
 .img32 p{
     text-align: center;
-    width: 16rem;
+    width: 19rem;
     height: 18rem;
-    font-size: 1rem;
     font-weight: 100;
     margin-left: 3rem;
 }
@@ -586,12 +581,12 @@ u{
 }
 .asideTitle{
     display: inline-block;
-    width: 40rem;
+    width: 50rem;
     text-align: center;
     font-size: 2.4rem;
 }
 .asideTitle p{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .user{
     box-sizing:content-box; 
