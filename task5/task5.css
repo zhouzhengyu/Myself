@@ -1,15 +1,14 @@
-
-  .container{
-      width: 100%;
-      height: 100%;
-      min-height: 58rem;
-      font-family: sans-serif;
-  }
-  #aside{
-      position: absolute;
+html{
+    font-size: 60%;
+    font-family: sans-serif;
+}
+.container-fluid{
+    width: 100%;
+    min-width: 100rem;
+}
+  .span1{
+      float: left;
       width: 8.4rem;
-      height: 100%;
-      min-height: 58rem;
       background: rgb(29, 37,49);
   }
   i{
@@ -19,47 +18,43 @@
       background-size: 51rem 52rem;
   }
   .task4_11 i{
-      position: absolute;
+      float: left;
       background-position:1rem 0rem;
   }
   .task4_12 i{
-      position: absolute;
+      float: left;
       top: 5rem;
       background-position:1rem -12rem;
   }
   .task4_13 i{
-      position: absolute;
+      float: left;
       top: 10.2rem;
       background-position:1rem -24rem;
   }
   .task4_14 i{
-      position: absolute;
+      float: left;
       top: 15rem;
       background-position:1rem -35rem;
+      margin-bottom: 48rem;
   }
   .task4_15 i{
-      position: absolute;
+      float: left;
       width: 6rem !important;
-      bottom: -2.4%;
+      margin-bottom: -5rem;
       background-position: 1.5rem -46rem;
       background-size: 41rem 49rem !important;
   }
   .task4_16 i{
-      position: absolute;
-      left: 1rem;
-      bottom: -2.4%;
-      background-position: -1.8rem -45.9rem;
+      float: left;
+      background-position: -1.8rem -46.8rem;
       background-size: 40rem 49rem !important;
   }
   
-  #seAside{
-      position: absolute;
+  .span2{
+      float: left;
       left: 8.4rem;
       width: 20rem;
-      height: 100%;
-      min-height: 58rem;
       background: rgb(34, 44,60);
-      display: block;
   }
   .task4_2 i{
       float:left;
@@ -74,7 +69,7 @@
       font-weight: bold;
       color: rgb(91, 103,121);
   }
-  #menu{
+  .mainMenu{
       float:left;
       width: 5rem;
       margin-top: -4rem;
@@ -88,7 +83,7 @@
       list-style: none;
       color: rgb(183,192,205);
   }
-  #underline{
+  .underline{
       float:left;
       width: 15rem;
       margin-left: 1.5rem;
@@ -160,7 +155,7 @@
     margin-top: 6.3rem;
     color: rgb(183,192,205);
 }
-  .underline{
+  .underline1{
       float: left;
       width: 15rem;
       margin-left: 1.7rem;
@@ -181,11 +176,12 @@
       font-weight: bold;
       color: rgb(91, 103,121);
   }
-  #dashboard{
+  .mainDashboard{
       float: left;
       width: 5rem;
       margin-top: -4rem;
       margin-left: 8.7rem;
+      margin-bottom: 23rem;
   }
   .dashboard{
       margin-left:-10.4rem;
@@ -196,36 +192,35 @@
       color: rgb(183,192,205);
   }
   .progress{
-      position: absolute;
+      float: left;
       width: 14rem !important;
       height: 0.5rem !important;
-      left: 1.5rem;
-      bottom: 1%;
+      margin-left: 1.5rem;
+      margin-bottom: 4.7rem;
       background-color: rgb(45, 56, 72)
   }
   .progress-bar{
-    background-color: rgb(140, 114, 229)
+    background-color: rgb(140, 114, 229);
+    margin-bottom: 6rem;
+
   }
   .task4_5 p{
-      position: absolute;
+      float: left;
       width: 14rem !important;
-      left: 2rem;
-      bottom: 4%;
+      margin-left: 2rem;
       font-size: 0.6rem;
       font-weight: bold;
       background-position: -16rem -49.3rem;
       color: rgb(183,192,205);
   }
   
-  #leAside{
+
+  .span4{
       float:left;
-      margin-left:28.5rem;
       width: 30rem;
-      height: 100%;
-      min-height: 58rem;
       background: rgb(255,255,255);
   }
-  #message{
+  .message{
       float: left;
       margin-left: 2rem;
       margin-top: 2rem;
@@ -247,10 +242,9 @@
     color: rgb(159, 169,186)
   }
 
-  #reAside{
+
+  .span5{
       margin-left: 58.4rem;
-      height: 100%;
-      min-height: 58rem;
       min-width: 33rem;
       background: rgb(255,255,255);
   }
@@ -271,13 +265,13 @@
       width: 7rem;
       height: 6rem;
   }
-  #img1 u{
+  .img1 u{
       float: right;
       margin-right:0rem;
       margin-top: 1rem;
       background-position: 0rem 0rem;
   }
-  #img1 p{
+  .img1 p{
       float: right;
       margin-right:0rem;
       margin-top: 3rem;
@@ -285,7 +279,7 @@
       color: rgb(183,192,205);
       display:inline-block;
   }
-  #img2 u{
+  .img2 u{
       float: right;
       margin-right: 0rem;
       margin-top: 7.2rem;
@@ -294,23 +288,23 @@
       background-size: 13rem 50rem !important;
       display:inline-block;
   }
-#img3 ul {
+.img3 ul {
       float: right;
       margin-right: -27rem;
       margin-top: 8.2rem;
       height: 2rem !important;
   }
-#img3 ul li a{
+.img3 ul li a{
    font-size: 1rem;
 }
-#img3 p{
+.img3 p{
       float: right;
       margin-right: -19rem;
       margin-top: 9rem;
       color: rgb(86,104,138);
       display:inline-block;
 }
-#img4 u{
+.img4 u{
       float:right;
       margin-right: 10rem;
       margin-top: 40rem;
@@ -318,19 +312,20 @@
       background-size: 9rem 36rem !important;
       display:inline-block;
   }
-  #under{
+  .under{
       float: left;
       width: 100%;
       min-width: 58.5rem;
-      margin-top: -52rem;
+      margin-top: -73rem;
   }
-  #under1{
+  .under1{
       float: left;
-      width: 58rem;
+      width: 30rem;
+      margin-left: 28.4rem;
       border: 0.5px rgb(183,192,205) solid;
   }
-  #under2{
-      margin-left: 58rem;
+  .under2{
+      margin-left: 58.3rem;
       width: 100%;
       border: 0.5px rgb(183,192,205) solid;
   }
