@@ -4,7 +4,6 @@ html{
 }
 .container-fluid{
     width: 100%;
-    min-width: 100rem;
 }
   .span1{
       float: left;
@@ -326,6 +325,6 @@ html{
   }
   .under2{
       margin-left: 58.3rem;
-      width: 100%;
+      margin-right: 0;
       border: 0.5px rgb(183,192,205) solid;
   }
