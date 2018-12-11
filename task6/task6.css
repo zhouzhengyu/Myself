@@ -1,8 +1,7 @@
- 
-body{
-    font-family: sans-serif;
+ .container{
     width: 100%;
     min-width: 100rem;
+    font-family: sans-serif;
 }
 i{
     background:url(./img.png)  no-repeat;
@@ -19,65 +18,55 @@ u{
     border-radius: 5rem;
 }
 .background{
-    position: absolute;
+    display: flex;
     background-color:rgb(20, 20,20) ;
     background-size: 100%;
-    width: 100%;
     height: 62.5rem;
-    object-fit: cover;
     width: 100%;
-    min-width: 100rem;
-   
 }
-#background{
-    position: absolute;
+.backgrounda{
+    display: flex;
     background: url(./1_01.png) no-repeat;
     background-size: 100% 62.5rem;
-    width: 100%;
+    margin-top: -62.5rem;
     height: 62.5rem;
     opacity:0.5;
-    object-fit: cover;
     width: 100%;
-    min-width: 100rem;
 }
-#head{
+.head{
     box-sizing: content-box;
-    position: absolute;
-    display: inline-block;
     width: 100%;
-    min-width: 100rem;
     height: 38rem;
-    margin-top: 12rem;
+    margin-top:-53rem;
 }
-#span{
-    position: absolute;
+.span{
     text-align: center;
     width: 100%;
     font-size: 4rem;
     color: white;
 }
-#p{
+.p{
     display:flex;
     width: 100%;
     height: 6rem;
     margin-top:5.5rem;
 }
-#p1{
+.p1{
     flex: 1;
     display:flex;
 }
-#p2{
+.p2{
     width: 40rem;
     text-align: center;
     font-size: 1rem;
     color: white;
     opacity:0.5;
 }
-#p3{
+.p3{
     display:flex;
     flex: 1;
 }
-#sign{
+.sign{
     display:flex;
     width: 100%;
     height: 20rem;
@@ -93,7 +82,7 @@ u{
     height: 17rem;
     border: 0.5px rgb(128, 127, 126) solid;
 }
-#ti{
+.ti{
     margin-top:2rem;
     width: 100%;
     font-size: 1.5rem;
@@ -101,7 +90,7 @@ u{
     color: white;
     display: inline-block;
 }
-#tit{
+.tit{
     width: 100%;
     font-size: 1rem;
     text-align: center;
@@ -119,7 +108,7 @@ u{
     margin-left: 4rem;
     margin-top: 3rem;
 }
-.button{
+.fbutton{
     border: 0.5px white solid;
     background-color:white; 
     text-align: center;
@@ -134,57 +123,58 @@ u{
     flex: 19.5rem;
 }
 
-#centercontent{
+
+
+.centercontent{
     flex-direction:row;
     width: 100%;
-    margin-top: 62.5rem;
+    margin-top: 12rem;
     display: inline-block;
     height: 44.5rem;
 }
-#title{
+.title{
     display:flex;
     width: 100%;
     height: 17rem;
 }
-#title1{
+.title1{
     display: flex;
     flex: 1; 
 }
-#title2{
+.title2{
     display: inline-block;
     width: 40rem;
     margin-top: 8rem;
     font-size: 2.4rem;
     text-align: center;
 }
-#title3{
+.title3{
     display: flex;
     flex: 1; 
 }
 .content{
     display:flex;
 }
-#lecontent{
+.lecontent{
     display:flex;
     width: 18rem;
 }
-#content{
+.lcecontent{
     display: inline-block;
     height: 26.8rem;
 }
-#cecontent{
+.cecontent{
     display:flex;
     flex:1;  
 }
-#ascontent{
+.ascontent{
     display: inline-block;
     height: 26.8rem;
 }
-#ricontent{
+.ricontent{
     display:flex;
     width: 18rem;
 }
-
 .one i{
     display:flex;
     padding: 0.5%;
@@ -258,15 +248,16 @@ u{
     margin-top: 1.5rem;
 }
 
-.background1{
+.sebackground{
     background-color:rgb(20, 20,20) ;
     background-size: 100%;
     box-sizing: content-box;
     display:flex;
+    margin-top: 10rem;
     width: 100%;
     height: 50rem;
 }
-#background1{
+.sebackgrounda{
     background: url(./2_02.png) no-repeat;
     background-size: 100% 50rem;
     box-sizing: content-box;
@@ -276,23 +267,23 @@ u{
     height: 50rem;
     opacity:0.5;
 }
-#content1{
+.content1{
     box-sizing: content-box;
     display:flex;
     width: 100%;
     height: 62.5rem;
     margin-top: -62.5rem;
 }
-#left{
+.left{
     display:flex;
-    width: 50%;
+    width: 42rem;
     height: 38rem;
 }
-#text1{
+.text1{
     display:flex;
     flex: 1;
 }
-#text{
+.text{
     width: 24rem;
     height: 10rem;
     font-size: 3rem;
@@ -300,7 +291,7 @@ u{
     display: inline-block;
     margin-top: 17rem;
 }
-#textp{
+.textp{
     margin-left: -24rem;
     margin-top: 34rem;
     width: 28rem;
@@ -309,7 +300,7 @@ u{
     color: white;
     display: inline-block;
 }
-#button{
+.button{
     background-color:white; 
     border: 0.5px white solid;
     text-align: center;
@@ -319,7 +310,7 @@ u{
     margin-left: -28rem;
     margin-top: 48rem;
 }
-#button1{
+.button1{
     background-color:transparent; 
     border: 0.5px white solid;
     color: white;
@@ -330,25 +321,27 @@ u{
     margin-left: 2rem;
     margin-top: 48rem;
 }
-#text2{
+.text2{
     display:flex;
     flex: 1;
 }
-#right{
+.center{
+    flex: 1;
+}
+.right{
     display:flex;
-    width: 50%;
+    width: 42rem;
     height: 38rem;
 }
-#search{
+.search{
     border: 0.5px white solid;
     border-radius: 1rem;
     position: absolute;
     margin-top: 18rem;
-    margin-left: 8rem;
     width: 42rem;
     height: 40rem;
 }
-#search1{
+.search1{
     position: absolute;
     background-color: white;
     margin-top: 3rem;
@@ -356,14 +349,14 @@ u{
     width: 36.5rem;
     height: 34rem;
 }
-#data{
+.data{
     margin-top: 1rem;
     width: 100%;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
 }
-#explain{
+.explain{
     width: 100%;
     margin-top: 2rem;
     font-size: 1rem;
@@ -396,12 +389,12 @@ u{
     cursor: pointer;
 }
 
-.content1{
+.content2{
     display:flex;
     width: 100%;
     height: 15rem;
 }
-.title{
+.setitle{
     position: absolute;
     width: 100%;
     min-width: 100rem;
@@ -409,39 +402,39 @@ u{
     text-align: center;
     font-size: 2.4rem;
 }
-#logo0{
+.logo0{
     display:flex;
     flex: 1;
 }
-#logo1{
+.logo1{
     width: 25rem;
     font-size: 3rem;
     font-family: 'STXingkai';
     text-align: center;
 }
-#logo1 p{
+.logo1 p{
     width: 17rem;
     margin-top: 10rem;
     font-size: 3rem;
     font-family: 'STXingkai';
     display: inline-block;
 }
-#logo2{
+.logo2{
     width: 25rem;
     text-align: center;
 }
-#logo2 p{
+.logo2 p{
     width: 17rem;
     font-size: 3rem;
     margin-top: 10rem;
     font-family: 'STXingkai';
     display: inline-block;
 }
-#logo3{
+.logo3{
     width: 25rem;
     text-align: center;
 }
-#logo3 p{
+.logo3 p{
     width: 17rem;
     margin-top: 10rem;
     font-size: 3rem;
@@ -449,56 +442,55 @@ u{
     display: inline-block;
     
 }
-#logo4{
+.logo4{
     display:flex;
     flex: 1;
 }
-#content2{
+.content3{
     display:flex;
     width: 100%;
     height: 15rem;
 }
-#logo10{
+.logo10{
     display:flex;
     flex: 1;
 }
-#logo11{
+.logo11{
     width: 25rem;
     text-align: center;
 }
-#logo11 p{
+.logo11 p{
     width: 17rem;
     font-size: 1rem;
     display: inline-block;
 }
-#logo21{
+.logo21{
     width: 25rem;
     text-align: center;
 }
-#logo21 p{
+.logo21 p{
     width: 17rem;
     font-size: 1rem;
     display: inline-block;
 }
-#logo31{
+.logo31{
     width: 25rem;
     text-align: center;
 }
-#logo31 p{
+.logo31 p{
     width: 17rem;
     font-size: 1rem;
     display: inline-block;
 }
-#logo41{
+.logo41{
     display:flex;
     flex: 1;
 }
 
-#task{
+.task{
     display:flex;
     flex-direction:row;
     width: 100%;
-    min-width: 50rem;
     height: 18rem;
     margin-top: 6rem;
 }
@@ -519,7 +511,7 @@ u{
     display:flex;
     flex: 18rem;
 }
-#img21{
+.img23{
     text-align: center;
     display: inline-block;
     width: 23rem;
@@ -539,7 +531,7 @@ u{
 }
 
 
-.task{
+.task1{
     display:flex;
     flex-direction:row;
     width: 100%;
@@ -550,16 +542,10 @@ u{
     display:flex;
     flex: 5%;
 }
-.img3{
-    background: url(./img3.png) no-repeat;
-    background-size: 100%;
-    width: 40rem;
-    height: 25rem;
-}
 .img32{
     height: 18rem;
 }
-#img32{
+.img33{
     text-align: center;
     display: inline-block;
     width: 23rem;
@@ -577,15 +563,21 @@ u{
     font-weight: 100;
     margin-left: 3rem;
 }
-.img33{
+.img3{
+    background: url(./img3.png) no-repeat;
+    background-size: 100%;
+    width: 40rem;
+    height: 25rem;
+}
+.img34{
     display:flex;
-    flex: 5%;
+   flex: 5%;
+
 }
 
 
-#aside{
+.aside{
     box-sizing:content-box; 
-    display: flex;
     display: inline-block;
     width: 100%;
     height: 10rem;
@@ -596,35 +588,38 @@ u{
     display: inline-block;
     width: 40rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 2.4rem;
 }
-#user{
+.asideTitle p{
+  font-size: 1rem;
+}
+.user{
     box-sizing:content-box; 
     display: flex;
     margin-top: 2rem;
     width: 100%;
     height: 37rem;
 }
-#user1{
+.usera{
     display:flex;
      width: 19rem;
     height:30rem;
 }
-#user2{
+.userb{
     display:flex;
     flex: 1;
     height:30rem;
 }
-#user3{
+.userc{
     width: 60rem;
     height:30rem;
 }
-#user4{
+.userd{
     display:flex;
     flex: 1;
     height:30rem;
 }
-#user5{
+.usere{
      display:flex;
      width: 19rem;
      height:30rem;
@@ -636,16 +631,16 @@ u{
     width: 30rem;
     height: 21rem;
 }
-#a{
+.a{
     opacity: 0;
     width: 30rem;
     height: 21rem;
 }
-#a:hover{ 
+.a:hover{ 
     background-color:rgb(102, 102,102);
     opacity: 0.5;
 }
-#atext{ 
+.atext{ 
     color: aliceblue; 
     margin-top: 3rem;
     width: 21rem;
@@ -653,26 +648,26 @@ u{
     text-align: center;
     display: inline-block;
 }
-#a p{
+.a p{
     display: inline-block;
     color: aliceblue; 
     width: 21rem;
     font-size:1rem !important;
     text-align: center; 
 }
-#icon1 u{
+.icon1 u{
     float: left;
     margin-top: 4rem;
     margin-left: 6.5rem;
     background-position: -0.3rem -0.4rem;
 }
-#icon2 u{
+.icon2 u{
     float: left;
     margin-left:2rem;
     margin-top: 4rem;
     background-position: -0.9rem -15.3rem;
 }
-#icon3 u{
+.icon3 u{
     float: left;
     margin-left:2rem;
     margin-top: 4rem;
@@ -700,24 +695,24 @@ u{
     height: 21rem;
 }
 
-#form{
+.form{
     box-sizing:content-box; 
     display: flex;
     margin-top: 12rem;
     width: 100%;
     height: 37rem;
 }
-#fell1{
+.fell1{
     display:flex;
     width: 19rem;
    
 }
-#fell2{
+.fell2{
     display:flex;
     flex: 1;
     
 }
-#fell{
+.fell{
     float: left;
     width: 29rem;
 }
@@ -729,7 +724,7 @@ u{
     height: 3rem !important;
     margin-top: 1rem;
 }
-#contact{
+.contact{
     float: left;
     width: 29rem;
     text-align: left;
@@ -743,15 +738,15 @@ u{
     border: 0.5px black solid;
     margin-top: 1rem;
 }
-#fell3{
+.fell3{
     width: 60rem;  
 }
-#fell4{
+.fell4{
     display:flex;
     flex: 1;
    
 }
-#fell5{
+.fell5{
     display:flex;
     width: 19rem;
    
@@ -796,7 +791,7 @@ u{
     margin-left: 4rem;
     margin-top: -4.5rem;
 }
-#foot{
+.foot{
     background-color: rgb(31, 29, 29);
     box-sizing:content-box;
     display:flex;
