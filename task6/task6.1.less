@@ -1,0 +1,782 @@
+.container{
+    width: 100%;
+    min-width: 100rem;
+    font-family: sans-serif;
+}
+i{
+    background:url(./img.png)  no-repeat;
+    width: 6rem;
+    height: 6rem;
+    background-size: 39rem 54rem;
+   
+} 
+u{
+    background:url(./img4.png)  no-repeat;
+    width: 4rem;
+    height: 4rem; 
+    border: 0.5px @color solid;
+    border-radius: 5rem;
+}
+.flex(@flex:flex){
+    display: @flex;
+}
+.margin(@left:0;@top:0){
+    margin-left: @left;
+    margin-top: @top;
+}
+.size(@width:0;@height:0){
+    width: @width;
+    height: @height;
+}
+.position(@position:0 0){
+    background-position: @position;
+}
+.align(@align:center){
+    text-align: @align;
+}
+.display(@play:inline-block){
+    display: @play;
+}
+.font(@font:1rem){
+    font-size: @font;
+}
+.flex1(@flex1:1){
+    flex: @flex1;
+}
+.padding(@padding:0.5%){
+    padding: @padding;
+}
+@color:white;
+
+
+.background{
+    .flex;
+    background-color:rgb(20, 20,20) ;
+    background-size: 100%;
+    .size(100%;62.5rem);
+}
+.backgrounda{
+    .flex;
+    background: url(./1_01.png) no-repeat;
+    background-size: 100% 62.5rem;
+    .margin(0;-62.5rem);
+    .size(100%;62.5rem);
+    opacity:0.5;
+}
+.head{
+    box-sizing: content-box;
+    .size(100%;38rem);
+    .margin(0;-53rem);
+}
+.span{
+    .align;
+    .size(100%;3rem);
+    .font(4rem);
+    color: @color;
+}
+.p{
+    .flex;
+    .size(100%;6rem);
+    .margin(0;5.5rem);
+}
+.p1{
+   .flex1;
+    .flex;
+}
+.p2{
+    .size(40rem;4rem);
+    .align;
+    .font;
+    color: @color;
+    opacity:0.5;
+}
+.p3{
+     .flex;
+   .flex1;
+}
+.sign{
+     .flex;
+     .size(100%;20rem);
+     .margin(0;6rem);
+     .font(3rem);
+}
+.sign1{
+     .flex;
+    flex: 19.5rem;
+}
+.sign2{
+    .size(60.5rem;17rem);
+    border: 0.5px rgb(128, 127, 126) solid;
+}
+.ti{
+    .margin(0;2rem);
+    .size(100%;1rem);
+    .font(1.5rem);
+    .align;
+    color: @color;
+   .display;
+}
+.tit{
+    .size(100%;1rem);
+    .font;
+    .align;
+    color: @color;
+   .display;
+    opacity:0.5;
+}
+.form-control{
+    background-color:transparent; 
+    border: 0.5px rgb(128, 127, 126) solid;
+    color: aliceblue;
+    .align;
+    width: 18rem !important;
+    height: 3.5rem !important;
+    .margin(4rem;3rem);
+}
+.fbutton{
+    border: 0.5px @color solid;
+    background-color:@color; 
+    .align;
+    .font(1.5rem);
+    .size(7rem;3.5rem);
+    .margin(3rem;3rem);
+}
+.sign3{
+     .flex;
+    flex: 19.5rem;
+}
+
+
+
+.centercontent{
+    flex-direction:row;
+    .size(100%;44.5rem);
+    .margin(0;12rem);
+   .display;
+}
+.title{
+     .flex;
+     .size(100%;17rem);
+}
+.title1{
+    .flex;
+   .flex1; 
+}
+.title2{
+   .display;
+    .size(40rem;6rem);
+    .margin(0;8rem);
+    .font(2.4rem);
+    .align;
+}
+.title3{
+    .flex;
+   .flex1; 
+}
+.content{
+     .flex;
+}
+.lecontent{
+     .flex;
+     .size(18rem;0);
+}
+.lcecontent{
+   .display;
+    .size(0;26.8rem);
+}
+.cecontent{
+     .flex;
+    flex:1;  
+}
+.ascontent{
+   .display;
+    height: 26.8rem;
+}
+.ricontent{
+     .flex;
+     .size(18rem;0);
+}
+.one{
+ i{
+     .flex;
+   .padding;
+    .position(3rem 3rem);
+    cursor: pointer;
+}
+span{
+     .flex;
+   .padding;
+    .margin(7rem;-3.3rem);
+}
+ p{
+     .flex;
+     .size(17rem;0);
+   .padding;
+    .margin(7rem;1rem);
+}
+}
+.two {
+    i{
+     .flex;
+   .padding;
+    .margin(26rem;0);
+    .position(-22rem 3rem);
+    cursor: pointer;
+}
+ span{
+     .flex;
+     .margin(33rem;-3rem);
+}
+ p{
+     .flex;
+     .size(17rem;4rem);
+     .margin(33rem;0);
+}
+}
+.three {
+    i{
+     .flex;
+   .padding;
+    .margin(0;5rem);
+    .position(2rem -10rem);
+    cursor: pointer;
+}
+ span{
+     .flex;
+     .margin(7rem;-3rem);
+}
+ p{
+     .flex;
+     .size(17rem;0);
+     .margin(7rem;1.5rem);
+}
+}
+
+.four{
+
+ i{
+     .flex;
+     .margin(27rem;3rem);
+    .position(-22rem -10rem);
+    cursor: pointer;
+}
+ span{
+     .flex;
+     .margin(33rem;-3rem);
+}
+ p{
+     .flex;
+     .size(17rem;0);
+     .margin(33rem;1.5rem);
+}
+}
+
+.sebackground{
+    background-color:rgb(20, 20,20) ;
+    background-size: 100%;
+    box-sizing: content-box;
+     .flex;
+     .size(100%;50rem);
+     .margin(0;10rem);
+}
+.sebackgrounda{
+    background: url(./2_02.png) no-repeat;
+    background-size: 100% 50rem;
+    box-sizing: content-box;
+     .flex;
+    .size(100%;50rem);
+     .margin(0;-50rem);
+    opacity:0.5;
+}
+.content1{
+    box-sizing: content-box;
+     .flex;
+     .size(100%;62.5rem);
+     .margin(0;-62.5rem);
+}
+.left{
+     .flex;
+     .size(42rem;38rem);
+}
+.text1{
+     .flex;
+   .flex1;
+}
+.text{
+    .size(24rem;10rem);
+    .font(3rem);
+    color: @color;
+   .display;
+    .margin(0;17rem);
+}
+.textp{
+    .size(28rem;10rem);
+     .margin(-24rem;34rem);
+     .font(1.5rem);
+    color: @color;
+   .display;
+}
+.button{
+    background-color:@color; 
+    border: 0.5px @color solid;
+    .align;
+    .font(1rem);
+    .size(15rem;5rem);
+    .margin(-28rem;48rem);
+}
+.button1{
+    background-color:transparent; 
+    border: 0.5px @color solid;
+    color: @color;
+    .align;
+    .font(1rem);
+    .size(15rem;5rem);
+    .margin(2rem;48rem);
+}
+.text2{
+     .flex;
+   .flex1;
+}
+.center{
+   .flex1;
+}
+.right{
+     .flex;
+     .size(42rem;38rem);
+}
+.search{
+    border: 0.5px @color solid;
+    border-radius: 1rem;
+    position: absolute;
+    .size(42rem;40rem);
+    .margin(0;18rem);
+}
+.search1{
+    position: absolute;
+    background-color: @color;
+    margin-top: 3rem;
+    right: 2rem;
+    .size(36.5rem;34rem);
+}
+.data{
+    margin-top: 1rem;
+    width: 100%;
+    font-weight: bold;
+    .font(1.5rem);
+    .align;
+}
+.explain{
+    width: 100%;
+    margin-top: 2rem;
+    .font(1.5rem);
+    .align;
+}
+.task3_03{
+
+ i{
+     .flex;
+     .margin(7rem;6rem);
+    .position(0rem -23rem);
+    cursor: pointer;
+}
+ p{
+     .flex;
+     .margin(9rem;0);
+    cursor: pointer;
+}
+}
+.task3_06 {
+    i{
+     .flex;
+     .position(-22rem -23rem);
+     .margin(23rem;-8.3rem);
+    cursor: pointer;
+}
+ p{
+     .flex;
+     .margin(25.5rem;0);
+    cursor: pointer;
+}
+}
+
+.content2{
+     .flex;
+   .size(100%;15rem);
+}
+.setitle{
+    position: absolute;
+    width: 100%;
+    min-width: 100rem;
+    margin-top: 2rem;
+    .align;
+    .font(2.4rem);
+}
+.logo0{
+     .flex;
+   .flex1;
+}
+.logo1{
+    width: 25rem;
+    .font(3rem);
+    font-family: 'STXingkai';
+    .align;
+}
+.logo1 p{
+    width: 17rem;
+    margin-top: 10rem;
+    .font(3rem);
+    font-family: 'STXingkai';
+   .display;
+}
+.logo2{
+    width: 25rem;
+    .align;
+}
+.logo2 p{
+    width: 17rem;
+    .font(3rem);
+    margin-top: 10rem;
+    font-family: 'STXingkai';
+   .display;
+}
+.logo3{
+    width: 25rem;
+    .align;
+}
+.logo3 p{
+    .size(17rem;0);
+    margin-top: 10rem;
+    .font(3rem);
+    font-family: 'STXingkai';
+   .display;
+    
+}
+.logo4{
+     .flex;
+   .flex1;
+}
+.content3{
+     .flex;
+     .size(100%;15rem);
+}
+.logo10{
+     .flex;
+   .flex1;
+}
+.logo11{
+    width: 25rem;
+    .align;
+}
+.logo11 p{
+    width: 17rem;
+   .display;
+}
+.logo21{
+    width: 25rem;
+    .align;
+}
+.logo21 p{
+    width: 17rem;
+   .display;
+}
+.logo31{
+    width: 25rem;
+    .align;
+}
+.logo31 p{
+    width: 17rem;
+   .display;
+}
+.logo41{
+     .flex;
+   .flex1;
+}
+
+.task{
+     .flex;
+    flex-direction:row;
+    .size(100%;18rem);
+    margin-top: 6rem;
+}
+.img20{
+     .flex;
+    flex:18rem;
+}
+.img2{
+    background: url(./img2.png) no-repeat;
+    background-size: 100%;
+    .size(40rem;25rem);
+}
+.img21{
+    height: 18rem;
+}
+.img22{
+     .flex;
+    flex: 18rem;
+}
+.img23{
+    .align;
+   .display;
+   .size(23rem, 4rem);
+    .margin(6rem;2rem) ;
+    .font(1.5rem);
+    font-weight: bold;
+}
+.img21 p{
+    .align;
+    .size(18rem, 18rem);
+    margin-left: 10rem;
+    font-weight: 100;
+}
+
+
+.task1{
+     .flex;
+    flex-direction:row;
+    .size(100%, 16rem);
+    margin-top: 10rem;
+}
+.img31{
+     .flex;
+    flex: 5%;
+}
+.img32{
+    height: 18rem;
+}
+.img33{
+    .align;
+   .display;
+    .size(23rem, 4rem);
+    margin-top: 2rem;
+    margin-right: 4rem;
+    .font(1.5rem);
+    font-weight: bold;
+}
+.img32 p{
+    .align;
+    .size(19rem, 18rem);
+    font-weight: 100;
+    margin-left: 3rem;
+}
+.img3{
+    background: url(./img3.png) no-repeat;
+    background-size: 100%;
+    .size(40rem, 25rem);
+}
+.img34{
+     .flex;
+   flex: 5%;
+
+}
+
+
+.aside{
+    box-sizing:content-box; 
+   .display;
+    .size(100%, 10rem);
+    margin-top: 17rem;
+    .align;
+    .font(2.4rem);
+}
+.asideTitle{
+   .display;
+    width: 50rem;
+    .align;
+    .font(2.4rem);
+}
+.asideTitle p{
+    .font(1.5rem);
+}
+.user{
+    box-sizing:content-box; 
+    .flex;
+    margin-top: 2rem;
+    .size(100%, 37rem);
+}
+.usera{
+     .flex;
+     .size(19rem, 30rem);
+}
+.userb{
+     .flex;
+   .flex1;
+    height:30rem;
+}
+.userc{
+    .size(60rem, 30rem);
+}
+.userd{
+     .flex;
+   .flex1;
+    height:30rem;
+}
+.usere{
+      .flex;
+      .size(19rem, 30rem);
+}
+.user1{
+    background: url(./user1.png) no-repeat;
+    background-size: 100%;
+    float: left;
+    .size(30rem, 21rem);
+}
+.a{
+    opacity: 0;
+    .size(30rem, 21rem);
+}
+.a:hover{ 
+    background-color:rgb(102, 102,102);
+    opacity: 0.5;
+}
+.atext{ 
+    color: aliceblue; 
+    margin-top: 3rem;
+    width: 21rem;
+    .font(1.5rem);
+    .align;
+   .display;
+}
+.a p{
+   .display;
+    color: aliceblue; 
+    width: 21rem;
+    font-size:1rem !important;
+    .align; 
+}
+.icon1 u{
+    float: left;
+    .margin(6.5rem;4rem) ;
+    .position(-0.3rem -0.4rem) ;
+}
+.icon2 u{
+    float: left;
+    .margin(2rem;4rem) ;
+    .position(-0.9rem -15.3rem) ;
+}
+.icon3 u{
+    float: left;
+    .margin(2rem;4rem) ;
+    .position(-0.6rem -30.1rem) ;
+}
+.user2{
+    background: url(./user2.png) no-repeat;
+    background-size: 100%;
+    float: left;
+    .size(30rem, 21rem);
+}
+.user3{
+    background: url(./user3.png) no-repeat;
+    background-size: 100%;
+    float: left;
+    .size(30rem, 21rem);
+}
+.user4{
+    background: url(./user4.png) no-repeat;
+    background-size: 100%;
+    float: left;
+    .size(30rem, 21rem);
+}
+
+.form{
+    box-sizing:content-box; 
+    display: flex;
+    margin-top: 12rem;
+    .size(100%, 37rem);
+}
+.fell1{
+     .flex;
+    width: 19rem;
+   
+}
+.fell2{
+     .flex;
+   .flex1;
+    
+}
+.fell{
+    float: left;
+    width: 29rem;
+}
+.form-control1{
+    background-color:transparent; 
+    border: 0.5px rgb(128, 127, 126) solid;
+    .font(1rem);
+    width: 18rem !important;
+    height: 3rem !important;
+    margin-top: 1rem;
+}
+.contact{
+    float: left;
+    width: 29rem;
+    text-align: left;
+
+}
+.btn {
+    width:18rem !important;
+    height:3.5rem !important;
+    background: black;
+    color:aliceblue;
+    border: 0.5px black solid;
+    margin-top: 1rem;
+}
+.fell3{
+    width: 60rem;  
+}
+.fell4{
+     .flex;
+   .flex1;
+   
+}
+.fell5{
+     .flex;
+    width: 19rem;
+   
+}
+.task3_26 {
+    i{
+     .flex;
+    .position(-36rem -41rem);
+    margin-top: -1.5rem;
+    cursor: pointer;
+}
+ p{
+    .font(1rem);
+    .size(13rem, 6rem);
+    .margin(4rem;-2.5rem) ;
+}
+}
+
+.task3_29 {
+    i{
+     .flex;
+     .position(-36rem -47rem);
+    background-size: 39rem 55rem !important;
+    margin-top: -5.5rem;
+    cursor: pointer;
+}
+ p{
+    .font(1rem);
+    .size(13rem, 6rem);
+    .margin(4rem;-3.7rem) ;
+}
+}
+.task3_32 {
+    i{
+     .flex;
+     .position(-36.1rem -51rem);
+    margin-top: -5.5rem;
+    cursor: pointer;
+}
+ p{
+    .font(1rem);
+    .size(13rem, 6rem);
+    .margin(4rem;-4.5rem) ;
+}
+}
+.foot{
+    background-color: rgb(31, 29, 29);
+    box-sizing:content-box;
+     .flex;
+    margin-bottom: 0px;
+    .size(100%, 6rem);
+}
