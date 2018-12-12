@@ -4,7 +4,6 @@ html {
 }
 .container-fluid {
   width: 100%;
-  min-width: 75rem;
 }
 .span1 {
   float: left;
@@ -17,63 +16,65 @@ i {
   height: 6rem;
   background-size: 51rem 52rem;
 }
+.position (@float:left;@size:1rem 0rem ) {
+  float: @float;
+  background-position:@size;
+}
+.margin (@left:11rem;@top:-2.5rem){
+  margin-left: @left;
+  margin-top: @top;
+}
+.margin2 (@right:0rem;@top:3rem){
+  margin-right: @right;
+  margin-top: @top;
+}
 .task4_11 i {
-  float: left;
-  background-position: 1rem 0rem;
+ .position;
 }
 .task4_12 i {
-  float: left;
-  background-position: 1rem -12rem;
+  .position(left;1rem -12rem);
 }
 .task4_13 i {
-  float: left;
-  background-position: 1rem -24rem;
+  .position(left;1rem -24rem);
 }
 .task4_14 i {
-  float: left;
-  background-position: 1rem -35rem;
+  .position(left;1rem -35rem);
   margin-bottom: 48rem;
 }
 .task4_15 i {
-  float: left;
-  background-position: 1.5rem -46rem;
+  .position(left;1.5rem -46rem);
   width: 6rem !important;
   margin-bottom: -5rem;
   background-size: 41rem 49rem !important;
 }
 .task4_16 i {
-  float: left;
-  background-position: -1.8rem -46.8rem;
+  .position(left;-1.8rem -46.8rem);
   background-size: 40rem 49rem !important;
 }
 .span2 {
   float: left;
   width: 20rem;
-  margin-left: -0.1rem;
   background: #222c3c;
 }
-.task4_2 i {
-  float: left;
-  margin-left: 11rem;
-  margin-top: -2.5rem;
-  background-position: -30rem 0rem;
-}
-.task4_2 p {
-  float: left;
-  margin-left: 2rem;
-  margin-top: 1.5rem;
-  font-weight: bold;
-  color: #5b6779;
-}
+.task4_2{
+  i {
+    .position(left;-30rem 0rem);
+    .margin;
+  }
+   p {
+    float: left;
+    .margin(2rem,1.5rem);
+    font-weight: bold;
+    color: #5b6779;
+  }
+} 
 .mainMenu {
   float: left;
+  .margin(-19rem,-1rem);
   width: 5rem;
-  margin-top: -4rem;
-  margin-left: -1rem;
 }
 .menu {
-  margin-left: -0.5rem;
-  margin-top: 1rem;
+  .margin(-0.5rem,1rem);
   font-weight: bold;
   font-size: 0.6rem;
   list-style: none;
@@ -81,106 +82,100 @@ i {
 }
 .underline {
   float: left;
+  .margin(1.5rem,1rem);
   width: 15rem;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
   border: 1px #2a3547 solid;
 }
-.task4_3 i {
-  float: left;
-  margin-left: 11.3rem;
-  margin-top: 1rem;
-  background-position: -30rem 0rem;
+.task4_3 {
+  i {
+    .position(left;-30rem 0rem);
+    .margin(11.3rem,1rem);
+  }
+   p {
+    float: left;
+    .margin(1.5rem,-5.6rem);
+    font-weight: bold;
+    color: #5b6779;
+  }
 }
-.task4_3 p {
-  float: left;
-  margin-left: 1.5rem;
-  margin-top: -5.6rem;
-  font-weight: bold;
-  color: #5b6779;
+
+.task4_31 {
+  i {
+    .position(left;-23.9rem 1rem);
+    .margin(1.5rem,-3.8rem);
 }
-.task4_31 i {
+ p {
   float: left;
-  margin-left: 1.5rem;
-  margin-top: -3.8rem;
-  background-position: -23.9rem 1rem;
-}
-.task4_31 p {
-  float: left;
+  .margin(-4.5rem,-2.5rem);
   font-size: 0.6rem;
-  margin-left: -4.5rem;
-  margin-top: -2.5rem;
   color: #b7c0cd;
 }
-.task4_32 i {
-  float: left;
-  margin-left: -7rem;
-  margin-top: -0.5rem;
-  background-position: -24rem -7rem;
 }
-.task4_32 p {
+.task4_32{
+  i {
+    .position(left;-24rem -7rem);
+    .margin(-7rem,-0.5rem);
+  }
+   p {
+    float: left;
+    .margin(-4.7rem,0.4rem);
+    font-size: 0.6rem;
+    color: #b7c0cd;
+  }
+} 
+.task4_33 {
+  i {
+    .position(left;-24rem -13rem);
+    .margin(-7.1rem,2.3rem);
+    }
+ p {
   float: left;
+  .margin(-4.7rem,3.3rem);
   font-size: 0.6rem;
-  margin-left: -4.7rem;
-  margin-top: 0.4rem;
   color: #b7c0cd;
+   }
 }
-.task4_33 i {
-  float: left;
-  margin-left: -7.1rem;
-  margin-top: 2.3rem;
-  background-position: -24rem -13rem;
-}
-.task4_33 p {
-  float: left;
-  font-size: 0.6rem;
-  margin-left: -4.7rem;
-  margin-top: 3.3rem;
-  color: #b7c0cd;
-}
-.task4_34 i {
-  float: left;
-  margin-left: -7.1rem;
-  margin-top: 5.9rem;
-  background-position: -24rem -20rem;
-}
-.task4_34 p {
-  float: left;
-  font-size: 0.6rem;
-  margin-left: -4.7rem;
-  margin-top: 6.3rem;
-  color: #b7c0cd;
-}
+
+.task4_34{
+  i {
+    .position(left;-24rem -20rem);
+    .margin(-7.1rem,5.9rem);
+  }
+   p {
+    float: left;
+    .margin(-4.7rem,6.3rem);
+    font-size: 0.6rem;
+    color: #b7c0cd;
+  }
+} 
+
 .underline1 {
   float: left;
+  .margin(1.7rem,-3rem);
   width: 15rem;
-  margin-left: 1.7rem;
-  margin-top: -3rem;
   border: 1px #2a3547 solid;
 }
-.task4_4 i {
-  float: left;
-  margin-left: 11.5rem;
-  margin-top: -2rem;
-  background-position: -30rem 0rem;
+.task4_4 {
+  i {
+  .position(left;-30rem 0rem);
+  .margin(11.5rem,-2rem);
 }
-.task4_4 p {
+ p {
   float: left;
-  margin-left: 1.7rem;
-  margin-top: -5.45rem;
+  .margin(1.7rem,-5.45rem);
   font-weight: bold;
   color: #5b6779;
 }
+}
+
 .mainDashboard {
   float: left;
+  .margin(8.7rem,-4rem);
   width: 5rem;
-  margin-top: -4rem;
-  margin-left: 8.7rem;
-  margin-bottom: 23rem;
+  margin-bottom: 21rem;
 }
 .dashboard {
-  margin-left: -10.4rem;
-  margin-top: 1rem;
+  .margin(-10.4rem,1rem);
   font-weight: bold;
   font-size: 0.6rem;
   list-style: none;
@@ -188,23 +183,21 @@ i {
 }
 .progress {
   float: left;
+  .margin(1.5rem,1.7rem);
   width: 14rem !important;
   height: 0.5rem !important;
-  margin-left: 1.5rem;
-  margin-bottom: 4.7rem;
   background-color: #2d3848;
+  margin-bottom: 4.6rem;
 }
 .progress-bar {
   background-color: #8c72e5;
   margin-bottom: 6rem;
 }
 .task4_5 p {
-  float: left;
+  .position(left;-16rem -49.3rem);
+  .margin(2rem,0.6rem);
   width: 14rem !important;
-  margin-left: 2rem;
-  font-size: 0.6rem;
   font-weight: bold;
-  background-position: -16rem -49.3rem;
   color: #b7c0cd;
 }
 .span4 {
@@ -214,8 +207,7 @@ i {
 }
 .message {
   float: left;
-  margin-left: 2rem;
-  margin-top: 2rem;
+  .margin(2rem,2rem);
   font-size: 2rem;
   font-weight: bold;
   color: #56688a;
@@ -223,8 +215,7 @@ i {
 .form-control {
   float: left;
   width: 25rem !important;
-  margin-left: 2rem;
-  margin-top: 4rem;
+  .margin(2rem,4rem);
   color: #9fa9ba;
 }
 .glyphicon {
@@ -238,50 +229,48 @@ i {
   min-width: 33rem;
   background: #ffffff;
 }
-.task4_6 i {
-  float: right;
-  margin-right: 0rem;
-  background-position: -45rem 0.1rem;
+.task4_6 {
+  i {
+  .position(right,-45rem 0.1rem);
+  .margin(0rem,0rem);
   display: inline-block;
 }
-.task4_6 p {
+ p {
   float: right;
   margin-right: -12rem;
   color: deepskyblue;
   display: inline-block;
 }
+}
+
 u {
   background: url(img5.png) no-repeat;
   width: 7rem;
   height: 6rem;
 }
 .img1 u {
-  float: right;
+  .position(right,0rem 0rem);
   margin-right: 0rem;
   margin-top: 1rem;
   background-position: 0rem 0rem;
 }
 .img1 p {
   float: right;
-  margin-right: 0rem;
-  margin-top: 3rem;
+  .margin2;
   font-size: 0.6rem;
   color: #b7c0cd;
   display: inline-block;
 }
 .img2 u {
-  float: right;
-  margin-right: 0rem;
-  margin-top: 7.2rem;
+  .position(right,0rem -13rem);
+  .margin2(0rem,7.2rem);
   width: 12rem !important;
-  background-position: 0rem -13rem;
   background-size: 13rem 50rem !important;
   display: inline-block;
 }
 .img3 ul {
   float: right;
-  margin-right: -27rem;
-  margin-top: 8.2rem;
+  .margin2(-27rem,8.2rem);
   height: 2rem !important;
 }
 .img3 ul li a {
@@ -289,23 +278,20 @@ u {
 }
 .img3 p {
   float: right;
-  margin-right: -19rem;
-  margin-top: 9rem;
+  .margin2(-19rem,9rem);
   color: #56688a;
   display: inline-block;
 }
 .img4 u {
-  float: right;
-  margin-right: 10rem;
-  margin-top: 40rem;
-  background-position: 0rem -31rem;
+  .position(right,0rem -31rem);
+  .margin2(10rem,40rem);
   background-size: 9rem 36rem !important;
   display: inline-block;
 }
 .under {
   float: left;
   width: 100%;
-  min-width: 90rem;
+  min-width: 58.5rem;
   margin-top: -73rem;
 }
 .under1 {

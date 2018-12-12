@@ -48,15 +48,15 @@ i {
 }
 .span2 {
   float: left;
-  width: 20rem;
   margin-left: -0.1rem;
+  width: 20rem;
   background: #222c3c;
 }
 .task4_2 i {
   float: left;
+  background-position: -30rem 0rem;
   margin-left: 11rem;
   margin-top: -2.5rem;
-  background-position: -30rem 0rem;
 }
 .task4_2 p {
   float: left;
@@ -67,9 +67,9 @@ i {
 }
 .mainMenu {
   float: left;
+  margin-left: -19rem;
+  margin-top: -1rem;
   width: 5rem;
-  margin-top: -4rem;
-  margin-left: -1rem;
 }
 .menu {
   margin-left: -0.5rem;
@@ -81,16 +81,16 @@ i {
 }
 .underline {
   float: left;
-  width: 15rem;
   margin-left: 1.5rem;
   margin-top: 1rem;
+  width: 15rem;
   border: 1px #2a3547 solid;
 }
 .task4_3 i {
   float: left;
+  background-position: -30rem 0rem;
   margin-left: 11.3rem;
   margin-top: 1rem;
-  background-position: -30rem 0rem;
 }
 .task4_3 p {
   float: left;
@@ -101,68 +101,68 @@ i {
 }
 .task4_31 i {
   float: left;
+  background-position: -23.9rem 1rem;
   margin-left: 1.5rem;
   margin-top: -3.8rem;
-  background-position: -23.9rem 1rem;
 }
 .task4_31 p {
   float: left;
-  font-size: 0.6rem;
   margin-left: -4.5rem;
   margin-top: -2.5rem;
+  font-size: 0.6rem;
   color: #b7c0cd;
 }
 .task4_32 i {
   float: left;
+  background-position: -24rem -7rem;
   margin-left: -7rem;
   margin-top: -0.5rem;
-  background-position: -24rem -7rem;
 }
 .task4_32 p {
   float: left;
-  font-size: 0.6rem;
   margin-left: -4.7rem;
   margin-top: 0.4rem;
+  font-size: 0.6rem;
   color: #b7c0cd;
 }
 .task4_33 i {
   float: left;
+  background-position: -24rem -13rem;
   margin-left: -7.1rem;
   margin-top: 2.3rem;
-  background-position: -24rem -13rem;
 }
 .task4_33 p {
   float: left;
-  font-size: 0.6rem;
   margin-left: -4.7rem;
   margin-top: 3.3rem;
+  font-size: 0.6rem;
   color: #b7c0cd;
 }
 .task4_34 i {
   float: left;
+  background-position: -24rem -20rem;
   margin-left: -7.1rem;
   margin-top: 5.9rem;
-  background-position: -24rem -20rem;
 }
 .task4_34 p {
   float: left;
-  font-size: 0.6rem;
   margin-left: -4.7rem;
   margin-top: 6.3rem;
+  font-size: 0.6rem;
   color: #b7c0cd;
 }
 .underline1 {
   float: left;
-  width: 15rem;
   margin-left: 1.7rem;
   margin-top: -3rem;
+  width: 15rem;
   border: 1px #2a3547 solid;
 }
 .task4_4 i {
   float: left;
+  background-position: -30rem 0rem;
   margin-left: 11.5rem;
   margin-top: -2rem;
-  background-position: -30rem 0rem;
 }
 .task4_4 p {
   float: left;
@@ -173,10 +173,10 @@ i {
 }
 .mainDashboard {
   float: left;
-  width: 5rem;
-  margin-top: -4rem;
   margin-left: 8.7rem;
-  margin-bottom: 23rem;
+  margin-top: -4rem;
+  width: 5rem;
+  margin-bottom: 21rem;
 }
 .dashboard {
   margin-left: -10.4rem;
@@ -188,11 +188,12 @@ i {
 }
 .progress {
   float: left;
+  margin-left: 1.5rem;
+  margin-top: 1.7rem;
   width: 14rem !important;
   height: 0.5rem !important;
-  margin-left: 1.5rem;
-  margin-bottom: 4.7rem;
   background-color: #2d3848;
+  margin-bottom: 4.6rem;
 }
 .progress-bar {
   background-color: #8c72e5;
@@ -200,11 +201,11 @@ i {
 }
 .task4_5 p {
   float: left;
-  width: 14rem !important;
-  margin-left: 2rem;
-  font-size: 0.6rem;
-  font-weight: bold;
   background-position: -16rem -49.3rem;
+  margin-left: 2rem;
+  margin-top: 0.6rem;
+  width: 14rem !important;
+  font-weight: bold;
   color: #b7c0cd;
 }
 .span4 {
@@ -240,8 +241,9 @@ i {
 }
 .task4_6 i {
   float: right;
-  margin-right: 0rem;
   background-position: -45rem 0.1rem;
+  margin-left: 0rem;
+  margin-top: 0rem;
   display: inline-block;
 }
 .task4_6 p {
@@ -271,10 +273,10 @@ u {
 }
 .img2 u {
   float: right;
+  background-position: 0rem -13rem;
   margin-right: 0rem;
   margin-top: 7.2rem;
   width: 12rem !important;
-  background-position: 0rem -13rem;
   background-size: 13rem 50rem !important;
   display: inline-block;
 }
@@ -296,9 +298,9 @@ u {
 }
 .img4 u {
   float: right;
+  background-position: 0rem -31rem;
   margin-right: 10rem;
   margin-top: 40rem;
-  background-position: 0rem -31rem;
   background-size: 9rem 36rem !important;
   display: inline-block;
 }
