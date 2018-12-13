@@ -48,9 +48,9 @@ i {
 }
 .span2 {
   float: left;
-  margin-left: -0.1rem;
   width: 20rem;
   background: #222c3c;
+  margin-left: -0.1rem;
 }
 .task4_2 i {
   float: left;
@@ -259,9 +259,9 @@ u {
 }
 .img1 u {
   float: right;
+  background-position: 0rem 0rem;
   margin-right: 0rem;
   margin-top: 1rem;
-  background-position: 0rem 0rem;
 }
 .img1 p {
   float: right;
