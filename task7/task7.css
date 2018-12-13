@@ -1,0 +1,63 @@
+html{
+    font-size: 625%;
+}
+.cotainer-fluid{
+    width: 100%;
+}
+.row-fluid{
+    float: left;
+    margin-left: 40%;
+    width: 4rem;
+    height:8rem;
+}
+.main{
+    float: left;
+    width: 4rem;
+    height:3rem;
+}
+.one{
+    float: left;
+    width: 1rem;
+    height:1rem;
+    margin: 0.1rem;
+    list-style: none;
+    border-radius: 0.1rem;
+    background-color: rgb(255, 166, 0);
+}
+.start{
+    float: left;
+    width: 3.5rem;
+    height:0.7rem;
+    margin: 0.1rem;
+    font-size: 0.4rem;
+    outline: 0;
+    border: none;
+    border-radius: 0.1rem;
+    margin-left: 0.5rem;
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+.start:hover{
+    background-color: rgb(207, 194, 170);
+}
+.end{
+    float: left;
+    width: 3.5rem;
+    height:0.7rem;
+    margin: 0.1rem;
+    font-size: 0.4rem;
+    outline: 0;
+    border: none;
+    border-radius: 0.1rem;
+    margin-left: 0.5rem;
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+}
+.end:hover{
+    background-color: rgb(207, 194, 170);
+}
+
+
+
+
+
