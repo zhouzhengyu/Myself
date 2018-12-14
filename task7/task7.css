@@ -1,14 +1,15 @@
 html{
     font-size: 625%;
 }
-.col-xs-3{
+.cotainer{
     display: flex;
     width: 100%;
+    min-width: 10rem;
 }
 .left{
     flex: 1;
 }
-.row-fluid{
+.col-xs-3{
     width: 4rem;
     height:8rem;
 }
