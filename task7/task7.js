@@ -2,6 +2,7 @@ $(document).ready(function(){
     var list = document.getElementsByClassName('one');
     var time;
     var rgb;
+    var a=0;
 $('#start').on('click',function(){
     clearInterval(time);
     time = setInterval(function () {
@@ -34,15 +35,19 @@ $('#end').on('click',function(){
     }
     
      function color(){
-        var rgba='(255, 166, 0)'
+        var rgba='(255, 166, 0)';
         colors();
         if(rgb==rgba){
          colors();
-         return rgb;
         }else{
-            return rgb;
+            if(rgb==a){
+                colors();
+            }else{
+                a=rgb;
+                return rgb;
+
+            }
         }
-        
      }  
      function colors(){
          var r=Math.floor(Math.random()*255);
