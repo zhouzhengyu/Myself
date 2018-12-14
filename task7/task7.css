@@ -4,7 +4,6 @@ html{
 .cotainer{
     display: flex;
     width: 100%;
-    min-width: 10rem;
 }
 .left{
     flex: 1;
