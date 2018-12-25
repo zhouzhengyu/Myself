@@ -3,6 +3,7 @@ var p='预言家：1名';
 var p1;
 var number;
 $('#button').on('click',function(){
+    $(".span").empty();
     $(".describe").empty();
     number=$("#input").val();
     if(number>=9&&number<=12){
