@@ -18,7 +18,7 @@ html{
     float: left;
     margin-top: 3rem;
     margin-left: 1rem;
-    width: 16rem;
+    width: 18rem;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -94,6 +94,8 @@ html{
     background-size: 100%;
     width: 7rem;
     height: 7.5rem;
+    outline: 0;
+    border: none;
 }
 .loadingThree{
     float: left;
