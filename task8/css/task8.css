@@ -67,7 +67,6 @@ html{
 }
 .describe{
     float: left;
-    display: inline-block;
     margin-top: 10rem;
     margin-left: 5rem;
     line-height: 2.5rem;
@@ -96,6 +95,7 @@ html{
     height: 7.5rem;
     outline: 0;
     border: none;
+    border-radius:0.7rem; 
 }
 .loadingThree{
     float: left;
@@ -113,7 +113,7 @@ html{
     height: 2rem;
     text-align: center;
     font-weight: bold;
-    margin-left: -0.5rem;
+    margin-left: -0.9rem;
     outline: 0;
     border: none;
     border-radius:0.5rem; 
