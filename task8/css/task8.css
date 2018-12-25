@@ -31,7 +31,7 @@ html{
     font-weight: bold;
 }
 #input{
-    float: right;
+    float: left;
     width: 3rem;
     height: 2.6rem;
     outline: 0;
