@@ -18,29 +18,32 @@ html{
     float: left;
     margin-top: 3rem;
     margin-left: 1rem;
-    width: 18rem;
+    width: 25rem;
+    height:4rem;
     font-weight: bold;
     font-size: 2rem;
 }
+.people{
+    float: left;
+    width: 12rem;
+    font-weight: bold;
+}
 #input{
     float: left;
-    margin-top: -2.3rem;
-    margin-left: 14.5rem;
     width: 3rem;
     outline: 0;
     border: none;
     background-color: rgb(211, 209, 206);
 }
 #button{
-    float: left;
+    float: right;
     width: 5rem;
     height: 2.6rem;
     border-radius:0.5rem; 
     outline: 0;
     border: none;
     cursor: pointer;
-    margin-top: -2.5rem;
-    margin-left: 20rem;
+   margin-right: 1rem;
     color: white;
     font-size: 1.5rem;
     background-color: rgb(25, 81, 177);
