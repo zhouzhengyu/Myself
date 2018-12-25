@@ -6,6 +6,9 @@ html{
     width: 100%;
     font-family: sans-serif;
 }
+.col-xs-1{
+    width: 100%;
+}
 .main{
     float: left;
     width: 40rem;
