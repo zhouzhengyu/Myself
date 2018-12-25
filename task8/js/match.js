@@ -1,7 +1,8 @@
 $(document).ready(function(){
-var p,p1;
+var p1;
 var number;
 $('#button').on('click',function(){
+    $(".describe").empty();
     number=$("#input").val();
     if(number>=9&&number<=12){
         if(number==9){
@@ -20,25 +21,21 @@ $('#button').on('click',function(){
     }else{
     $.alert({
         title:'系统提示',
-        content:' 请输入9到18之间的数',
+        content:' 请输入9到12之间的数',
         type:'red',
     })
 }
 })
 $('#start').on('click',function(){
-        for(var i=1;i<=number;i++){
-            var text='<li class="loading"><a class="loadingThree"></a></li>';
-        $(".main").append(text);
-        }
-    var a = document.getElementsByClassName('loadingThree');
-    for (var i = 0; i <a.length; i++) {
-        p=[i+1]+'号';
-        if(a[i].innerHTML.length==0){
-        a[i].text =p;
-        }else{
-            continue;
-        } 
-    }         
-    window.location.href="god.html";
+    if(number==null){
+        $.alert({
+            title:'系统提示',
+            content:' 请先输入人数并确定',
+            type:'red',
+        })
+    }else{
+        var getval =number;
+        window.location.href="loading.html?valus="+getval;  
+    }
 })
 })

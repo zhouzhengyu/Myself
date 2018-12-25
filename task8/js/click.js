@@ -1,0 +1,39 @@
+
+$(document).ready(function(){
+$("#click1").click(function(){
+    $("#background1").toggle(); 
+    });
+$("#click2").click(function(){
+    $("#background2").toggle(); 
+    });
+$("#click3").click(function(){
+    $("#background3").toggle(); 
+    });   
+$("#click4").click(function(){
+    $("#background4").toggle(); 
+    });
+$("#click5").click(function(){
+    $("#background5").toggle(); 
+    });
+$("#click6").click(function(){
+    $("#background6").toggle(); 
+    });   
+$("#click7").click(function(){
+    $("#background7").toggle(); 
+    });
+$("#click8").click(function(){
+    $("#background8").toggle(); 
+    });
+$("#click9").click(function(){
+    $("#background9").toggle(); 
+    }); 
+$("#click10").click(function(){
+    $("#background10").toggle(); 
+    });
+$("#click11").click(function(){
+    $("#background11").toggle(); 
+    });
+$("#click12").click(function(){
+    $("#background12").toggle(); 
+    });         
+})
