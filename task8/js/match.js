@@ -1,4 +1,5 @@
 $(document).ready(function(){
+var p='预言家：1名';
 var p1;
 var number;
 $('#button').on('click',function(){
@@ -6,17 +7,21 @@ $('#button').on('click',function(){
     number=$("#input").val();
     if(number>=9&&number<=12){
         if(number==9){
-            p1='预言家：1名 女巫：1名 猎人：1名 狼人：3名 平民：3名';
+            p1='女巫：1名 猎人：1名 狼人：3名 平民：3名';
             $(".describe").append(p1);
+            $(".span").append(p);
         }else if(number==10){
-            p1='预言家：1名 女巫：1名 猎人：1名 狼人：3名 平民：4名';
+            p1='女巫：1名 猎人：1名 狼人：3名 平民：4名';
             $(".describe").append(p1);
+            $(".span").append(p);
         }else if(number==11){
-            p1='预言家：1名 女巫：1名 猎人：1名 狼人：4名 平民：3名 守卫：1名';
+            p1='女巫：1名 猎人：1名 狼人：4名 平民：3名 守卫：1名';
             $(".describe").append(p1);
+            $(".span").append(p);
         }else if(number==12){
-            p1='预言家：1名 女巫：1名 猎人：1名 狼人：4名 平民：3名 守卫：1名 白痴：1名';
+            p1='女巫：1名 猎人：1名 狼人：4名 平民：3名 守卫：1名 白痴：1名';
             $(".describe").append(p1);
+            $(".span").append(p);
         }
     }else{
     $.alert({

@@ -71,9 +71,18 @@ html{
     font-weight: bold;
     font-size: 2rem;
 }
-.describe{
+.span{
     float: left;
     margin-top: 10rem;
+    margin-left: 5rem;
+    line-height: 2.5rem;
+    width: 9.5rem;
+    height: 3rem;
+    color: rgb(32, 32, 32);
+    font-size: 2rem;
+}
+.describe{
+    float: left;
     margin-left: 5rem;
     line-height: 2.5rem;
     width: 9.5rem;
