@@ -35,7 +35,7 @@ $('#button').on('click',function(){
 $('#start').on('click',function(){
     if(number==null){
         $.alert({
-            title:'系统提示',
+            title:'上帝提示',
             content:' 请先输入正确的人数并确定',
             type:'red',
         })

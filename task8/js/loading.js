@@ -12,16 +12,16 @@ $(document).ready(function(){
     for(var i=1;i<=number;i++){
         var p=[i]+'号';
         var n='请查看'+[i]+'号身份';
-        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'"></button></li>';
+        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">死亡</button></li>';
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
         a.innerHTML =p;
         var b = document.getElementById('click'+i+'');
         b.innerHTML =n; 
         var d=document.getElementById('background'+i+'');
-        d.style.backgroundImage="url('../img/2.png')";
-          
-           
+        d.style.backgroundImage="url('../img/2.png')";  
+        var e=document.getElementById('death'+i+'');
+        e.style.backgroundColor="#ccc";   
     } 
     
     var list = document.getElementsByClassName('two');
@@ -55,5 +55,45 @@ $(document).ready(function(){
     }
     return arr;
     }
+    $(".death").hide(); 
+})	
+function see(id){
+    var i = id.substr(id.indexOf("k")+1);
+    $("#background"+i).toggle(); 
+}
+var i,n;
+function judge(id){
+     i = id.substr(id.indexOf("e")+1);
+     n =document.getElementById('death'+i+'');
+if(n.innerHTML==""){
+    die();
+}else{
+    $.alert({
+        title:'上帝提示',
+        content:' 玩家已经死亡',
+        type:'red',
+    })
+}
+}
+function die(){
+    $.confirm({
+        title:'上帝提示',
+        content:'请确定玩家是否死亡？',
+        type:'red',
+        buttons:{
+            ok:{
+                text:'确定',
+                btnClass:'btn-primary',
+                action:function(){
+                    n.innerHTML ='死亡'; 
+                    $("#death"+i).show(); 										
+                }
+              },
+           cancel: {
+               text:'取消',
+                 action:function(){					 
+               }
+           }
+    }	
 })
-   
+}
