@@ -12,7 +12,7 @@ $(document).ready(function(){
     for(var i=1;i<=number;i++){
         var p=[i]+'号';
         var n='请查看'+[i]+'号身份';
-        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">生存</button></li>';
+        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">存活</button></li>';
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
         a.innerHTML =p;
