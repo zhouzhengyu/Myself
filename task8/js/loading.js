@@ -12,7 +12,7 @@ $(document).ready(function(){
     for(var i=1;i<=number;i++){
         var p=[i]+'号';
         var n='请查看'+[i]+'号身份';
-        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">死亡</button></li>';
+        var text='<li class="loading"><p class="background" id="background'+i+'"></p><p class="death" id="death'+i+'"></p><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="die" id="die'+i+'" onclick="judge(id)">生存</button></li>';
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
         a.innerHTML =p;
@@ -76,6 +76,9 @@ if(n.innerHTML==""){
 }
 }
 function die(){
+    var list = document.getElementsByClassName('two');
+    var die=document.getElementById('die'+i+'');
+    var b = document.getElementById('click'+i+'');
     $.confirm({
         title:'上帝提示',
         content:'请确定玩家是否死亡？',
@@ -85,8 +88,11 @@ function die(){
                 text:'确定',
                 btnClass:'btn-primary',
                 action:function(){
-                    n.innerHTML ='死亡'; 
-                    $("#death"+i).show(); 										
+                    n.innerHTML =list[i].innerHTML; 
+                    $("#death"+i).show(); 	
+                    die.style.backgroundColor="#ccc"; 
+                    die.innerHTML="死亡";
+                    b.style.backgroundColor="#ccc";   		  									
                 }
               },
            cancel: {
