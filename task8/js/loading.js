@@ -16,12 +16,12 @@ $(document).ready(function(){
         $(".main").append(text);
         var a = document.getElementById('loadingThree'+i+'');
         a.innerHTML =p;
-        var b = document.getElementById('click'+i+'');
-        b.innerHTML =n; 
-        var d=document.getElementById('background'+i+'');
-        d.style.backgroundImage="url('../img/2.png')";  
-        var e=document.getElementById('death'+i+'');
-        e.style.backgroundColor="#ccc";   
+        var button = document.getElementById('click'+i+'');
+        button.innerHTML =n; 
+        var background=document.getElementById('background'+i+'');
+        background.style.backgroundImage="url('../img/2.png')";  
+        var death=document.getElementById('death'+i+'');
+        death.style.backgroundColor="#ccc";   
     } 
     
     var list = document.getElementsByClassName('two');
@@ -78,7 +78,7 @@ if(n.innerHTML==""){
 function die(){
     var list = document.getElementsByClassName('two');
     var die=document.getElementById('die'+i+'');
-    var b = document.getElementById('click'+i+'');
+    var button = document.getElementById('click'+i+'');
     $.confirm({
         title:'上帝提示',
         content:'请确定玩家是否死亡？',
@@ -92,7 +92,10 @@ function die(){
                     $("#death"+i).show(); 	
                     die.style.backgroundColor="#ccc"; 
                     die.innerHTML="死亡";
-                    b.style.backgroundColor="#ccc";   		  									
+                    die.style.color="#fff";	  			
+                    button.style.backgroundColor="#ccc";   
+                    button.innerHTML="死亡状态";	
+                    button.style.color="#fff";	  									
                 }
               },
            cancel: {
