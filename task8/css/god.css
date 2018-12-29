@@ -33,7 +33,7 @@ html{
     outline: 0;
     border: none;
     border-radius:2rem; 
-    background-color: rgb(245, 201, 0);
+    background-color: rgb(251, 180, 53);
 }
 .die:hover{
     background-color: rgb(207, 194, 170);
@@ -117,7 +117,7 @@ html{
     text-align: center;
     cursor: pointer;
     background-size: 100%;
-    background-color: rgb(245, 201, 0);
+    background-color: rgb(251, 180, 53);
 }
 .luck{
     position: absolute;
@@ -137,7 +137,7 @@ html{
     outline: 0;
     border: none;
     border-radius: 0.1rem;
-    background-color: rgb(245, 201, 0);
+    background-color: rgb(251, 180, 53);
 }
 .background{
     position: absolute;
@@ -160,7 +160,7 @@ html{
     line-height: 0.6rem;
     color: red;
     background-color: white;
-    border: 5px rgb(245, 201, 0) solid;
+    border: 5px rgb(251, 180, 53) solid;
 }
 .loadingThree{
     float: left;
@@ -173,29 +173,33 @@ html{
     line-height: 0.6rem;
     color: red;
     background-color: white;
-    border: 5px rgb(245, 201, 0) solid;
+    border: 5px rgb(251, 180, 53) solid;
 }
 .see{
     margin-top: 0.2rem;
     width:4rem;
     height: 0.9rem;
     text-align: center;
+    font-size: 0.4rem;
     font-weight: bold;
     outline: 0;
     border: none;
     border-radius: 0.1rem;
-    background-color: rgb(245, 201, 0);
+    color: white;
+    background-color: rgb(251, 180, 53);
 }
 .pass{
     margin-top: 0.2rem;
     width:4rem;
     height: 0.9rem;
     text-align: center;
+    font-size: 0.4rem;
     font-weight: bold;
     outline: 0;
     border: none;
     border-radius: 0.1rem;
-    background-color: rgb(245, 201, 0);
+    color: white;
+    background-color: rgb(251, 180, 53);
 }
 .two{
     float: left;

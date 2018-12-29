@@ -1,6 +1,5 @@
-
+var number,arr;
 $(document).ready(function(){
-    var number,arr;
     var url=window.location.search;
     if(url.indexOf("?")!=-1){
         number = url.substr(url.indexOf("=")+1);
@@ -68,15 +67,33 @@ $(document).ready(function(){
 })	
 
 function see(id){
-    var i = id.substr(id.indexOf("k")+1);
-    $("#cover"+i).hide();
-    $("#background"+i).hide(); 
-    $("#click"+i).hide(); 
-    $("#deliver"+i).show(); 
+    var i=parseInt(id.substr(id.indexOf("k")+1));
+    var math = document.getElementsByClassName('loading');
+    var s=math.length;
+    var deliver=document.getElementById('deliver'+s+'');
+    if(i!=s){
+        $("#cover"+i).hide();
+        $("#background"+i).hide(); 
+        $("#click"+i).hide(); 
+        $("#deliver"+i).show(); 
+    }else{
+        $("#cover"+i).hide();
+        $("#background"+i).hide(); 
+        $("#click"+i).hide(); 
+        $("#deliver"+i).show(); 
+        deliver.innerHTML ="进入法官页面";  
+    }
 }
 function pass(id){
     var i = id.substr(id.indexOf("r")+1);
     var j=parseInt(i)+1;
-    $("#loading"+i).hide();
-    $("#loading"+j).show();
+        var math = document.getElementsByClassName('loading');
+        var s=math.length;
+        if(i!=s){
+            $("#loading"+i).hide();
+            $("#loading"+j).show();
+        }else{
+            var getval =arr;
+            window.location.href="loading.html?valus="+number;  
+        }
 }
