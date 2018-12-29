@@ -41,7 +41,7 @@ $('#start').on('click',function(){
         })
     }else{
         var getval =number;
-        window.location.href="loading.html?valus="+getval;  
+        window.location.href="god.html?valus="+getval;  
     }
 })
 })

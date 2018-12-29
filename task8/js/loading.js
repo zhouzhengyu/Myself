@@ -58,6 +58,7 @@ $(document).ready(function(){
     $(".death").hide(); 
 })	
 function see(id){
+    $('#myModal').modal();
     var i = id.substr(id.indexOf("k")+1);
     $("#background"+i).toggle(); 
 }
