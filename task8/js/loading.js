@@ -3,9 +3,8 @@ $(document).ready(function(){
     var url=decodeURI(window.location.search).slice(1); 
         b= url.substr(url.indexOf("=")+1);
         var arr = b.split(',');
-        number=arr[arr.length-1]
-
-   
+        number=arr[arr.length-1];
+        
     for(var i=1;i<=number;i++){
         var p=[i]+'号';
         var n='请查看'+[i]+'号身份';
