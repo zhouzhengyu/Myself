@@ -93,7 +93,8 @@ function pass(id){
             $("#loading"+i).hide();
             $("#loading"+j).show();
         }else{
+            arr[i]=number;
             var getval =arr;
-            window.location.href="loading.html?valus="+number;  
+            window.location.href="loading.html?valus="+getval;   
         }
 }

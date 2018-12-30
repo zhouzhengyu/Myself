@@ -1,11 +1,9 @@
-var number,arr;
+var number,arr,b;
 $(document).ready(function(){
-    var url=window.location.search;
-    if(url.indexOf("?")!=-1){
-        number = url.substr(url.indexOf("=")+1);
-    }else{
-        return number;
-    }
+    var url=decodeURI(window.location.search).slice(1); 
+        b= url.substr(url.indexOf("=")+1);
+        var arr = b.split(',');
+        number=arr[arr.length-1]
 
    
     for(var i=1;i<=number;i++){
@@ -22,7 +20,13 @@ $(document).ready(function(){
         var death=document.getElementById('death'+i+'');
         death.style.backgroundColor="#ccc";   
     } 
-    
+    var list = document.getElementsByClassName('two');
+    start();
+    function start(){
+        for (var i = 0; i < number; i++) {
+            list[i].innerHTML =arr[i];
+        }
+    }
     $(".death").hide(); 
 })	
 function see(id){
