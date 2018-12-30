@@ -9,7 +9,7 @@ $(document).ready(function(){
 
    
     for(var i=1;i<=number;i++){
-        var p=[i]+'号';
+        var p=[i];
         var n='请查看'+[i]+'号身份';
         var m='隐藏并传递给'+[i+1]+'号';
         var text='<li class="loading" id="loading'+i+'"><p class="luck" id="luck'+i+'"></p><span class="cover" id="cover'+i+'"><p class="loadingThree1" id="loadingThree1'+i+'"></p><p class="background" id="background'+i+'"></p></span><p class="two"></p><p class="loadingThree" id="loadingThree'+i+'"></p><button class="see" id="click'+i+'" onclick="see(id);"></button><button class="pass" id="deliver'+i+'" onclick="pass(id);"></button></li>';
