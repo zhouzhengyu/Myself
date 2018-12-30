@@ -3,114 +3,26 @@ html{
 }
 .cotainer{
     display: flex;
-    width: 40rem;
+    margin-top: 1rem;
+    width: 100%;
+    min-width: 4rem;
     font-family: sans-serif;
 }
+.left{
+    display: flex;
+    flex: 1;
+}
 .col-xs-1{
-    width:  40rem;
+    width:4rem;
 }
-.main{
-    float: left;
-    width: 40rem;
-    height:29rem;
-}
-.text{
-    float: left;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    width: 25rem;
-    height:4rem;
-    font-weight: bold;
-    font-size: 2rem;
-}
-.die{
-    float: left;
-    margin-left: 7rem;
-    margin-top: -9rem;
-    width: 3rem;
-    height: 3rem;
-    font-weight: bold;
-    outline: 0;
-    border: none;
-    border-radius:2rem; 
-    background-color: rgb(251, 180, 53);
-}
-.die:hover{
-    background-color: rgb(207, 194, 170);
-}
-.people{
-    float: left;
-    width: 8rem;
-    height: 2.6rem;
-    font-weight: bold;
-}
-#input{
-    float: left;
-    width: 5rem;
-    height: 2.6rem;
-    text-align: center;
-    font-size: 1.5rem;
-    outline: 0;
-    border: none;
-    background-color: rgb(211, 209, 206);
-}
-#button{
-    float: right;
-    width: 5rem;
-    height: 2.6rem;
-    border-radius:0.5rem; 
-    outline: 0;
-    border: none;
-    cursor: pointer;
-    margin-right: 1rem;
-    color: white;
-    font-size: 1.5rem;
-    background-color: rgb(25, 81, 177);
-}
-#button:hover{
-    background-color: #ff8000;
-}
-.content{
-    float: left;
-    margin-top: 3rem;
-    margin-left: 1rem;
-    width: 25rem;
-    height:35rem;
-    border: 0.1rem rgb(138, 137, 137) solid;
-}
-.match{
-    float: left;
-    margin-left: 1rem;
-    margin-top: 9.5rem;
-    line-height: 4rem;
-    width: 2rem;
-    font-weight: bold;
-    font-size: 2rem;
-}
-.span{
-    float: left;
-    margin-top: 10rem;
-    margin-left: 5rem;
-    line-height: 2.5rem;
-    width: 15rem;
-    height: 3rem;
-    color: rgb(32, 32, 32);
-    font-size: 2rem;
-}
-.describe{
-    float: left;
-    margin-left: 5rem;
-    line-height: 3.4rem;
-    width: 9.5rem;
-    height: 3rem;
-    color: rgb(32, 32, 32);
-    font-size: 2rem;
+.right{
+    display: flex;
+    flex: 1;
 }
 .loading{
     float: left;
     width: 4rem;
     height: 6rem;
-    margin: 3rem;
     font-size: 0.25rem;
     border-radius:0.1rem; 
     list-style: none;

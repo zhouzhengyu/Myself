@@ -4,11 +4,19 @@ html{
 .cotainer{
     display: flex;
     width: 100%;
-    min-width: 25rem;
+    min-width: 40rem;
     font-family: sans-serif;
 }
+.left{
+    display: flex;
+    flex: 1;
+}
 .col-xs-1{
-    width: 100%;
+    width: 40rem !important;
+}
+.right{
+    display: flex;
+    flex: 1;
 }
 .main{
     float: left;
@@ -27,7 +35,7 @@ html{
 .die{
     float: left;
     margin-left: 7rem;
-    margin-top: -9rem;
+    margin-top: -10rem;
     width: 3rem;
     height: 3rem;
     font-weight: bold;
