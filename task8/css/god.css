@@ -1,6 +1,9 @@
 html{
     font-size: 400%;
 }
+body{
+    background-color: aqua;
+}
 .cotainer{
     display: flex;
     margin-top: 0.4rem;
