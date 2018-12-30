@@ -3,7 +3,7 @@ html{
 }
 .cotainer{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     width: 100%;
     min-width: 3rem;
     font-family: sans-serif;
