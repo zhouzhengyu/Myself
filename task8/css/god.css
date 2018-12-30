@@ -15,8 +15,6 @@ html{
 }
 .col-xs-1{
     width: 3.4rem;
-    height: 5rem;
-    background-color: aqua;
 }
 .right{
     display: flex;
