@@ -5,7 +5,8 @@ html{
     display: flex;
     margin-top: 0.4rem;
     width: 100%;
-    min-width: 3rem;
+    min-width: 2rem;
+    min-height: 2rem;
     font-family: sans-serif;
 }
 .left{
